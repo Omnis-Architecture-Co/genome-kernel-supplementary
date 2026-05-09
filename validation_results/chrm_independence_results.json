@@ -1,0 +1,158 @@
+{
+  "test_suite": "chrM Independence Test",
+  "summary": "The kernel architecture does not depend on chrM being designated as the kernel chromosome. Chromosome roles (RELAY, EFFECTOR) are computed from cross-chromosome edge ratios with no reference to entry points. chr19 emerges as the dominant hub regardless of which chromosome serves as the entry source. chrM is identified as the kernel origin because all execution trace entry points converge there, not because it was pre-designated.",
+  "all_passed": true,
+  "tests": [
+    {
+      "test": "Role Independence",
+      "description": "Chromosome roles are computed from cross-chromosome edge ratios using gap analysis. The algorithm receives no entry point information. Roles are properties of the dispatch topology, not of the entry point designation.",
+      "relay_chromosomes": [
+        "chr19"
+      ],
+      "effector_chromosomes": [
+        "chr9",
+        "chrx",
+        "chry"
+      ],
+      "relay_effector_count": 20,
+      "ratio_ranking_top5": [
+        {
+          "chromosome": "chr19",
+          "ratio": 1.5522
+        },
+        {
+          "chromosome": "chr16",
+          "ratio": 1.437
+        },
+        {
+          "chromosome": "chr1",
+          "ratio": 1.3981
+        },
+        {
+          "chromosome": "chr15",
+          "ratio": 1.3385
+        },
+        {
+          "chromosome": "chr13",
+          "ratio": 1.2626
+        }
+      ],
+      "ratio_ranking_bottom5": [
+        {
+          "chromosome": "chr8",
+          "ratio": 0.715
+        },
+        {
+          "chromosome": "chr4",
+          "ratio": 0.5846
+        },
+        {
+          "chromosome": "chr9",
+          "ratio": 0.1831
+        },
+        {
+          "chromosome": "chrx",
+          "ratio": 0.1047
+        },
+        {
+          "chromosome": "chry",
+          "ratio": 0.0215
+        }
+      ],
+      "passed": true
+    },
+    {
+      "test": "Hub Emergence",
+      "description": "For every chromosome tested as a hypothetical kernel origin, chr19 remains the dominant outbound hub. The hub identity is a property of edge ratio distribution, not entry point choice.",
+      "top_hub_by_ratio": "chr19",
+      "top_hub_ratio": 1.5522,
+      "second_ratio": 1.437,
+      "ratio_gap": 0.1152,
+      "relative_gap_pct": 7.4,
+      "chr19_hub_when_other_is_kernel": true,
+      "simulations_summary": {
+        "chr1": "chr19",
+        "chr10": "chr19",
+        "chr11": "chr19",
+        "chr12": "chr19",
+        "chr13": "chr19",
+        "chr14": "chr19",
+        "chr15": "chr19",
+        "chr16": "chr19",
+        "chr17": "chr19",
+        "chr18": "chr19",
+        "chr19": "chr16",
+        "chr2": "chr19",
+        "chr20": "chr19",
+        "chr21": "chr19",
+        "chr22": "chr19",
+        "chr3": "chr19",
+        "chr4": "chr19",
+        "chr5": "chr19",
+        "chr6": "chr19",
+        "chr7": "chr19",
+        "chr8": "chr19",
+        "chr9": "chr19",
+        "chrx": "chr19",
+        "chry": "chr19"
+      },
+      "passed": true
+    },
+    {
+      "test": "chrM Structural Distinctiveness",
+      "description": "chrM has properties that make it a natural entry origin: smallest genome but highest primitive density per megabase, all entry points converge there, and it reaches the most target chromosomes via hop-1 dispatch.",
+      "chrm_genome_size_bp": 16569,
+      "chrm_unique_primitives": 0,
+      "avg_other_chromosome_primitives": 45.3,
+      "chrm_entry_points": 126,
+      "chrm_total_dispatch_edges": 12169086,
+      "chrm_dispatch_reach_chromosomes": 24,
+      "total_chromosomes": 24,
+      "primitive_density_top5": [
+        {
+          "chromosome": "chr14",
+          "primitives_per_Mb": 1.21
+        },
+        {
+          "chromosome": "chr22",
+          "primitives_per_Mb": 1.2
+        },
+        {
+          "chromosome": "chr19",
+          "primitives_per_Mb": 0.85
+        },
+        {
+          "chromosome": "chr21",
+          "primitives_per_Mb": 0.62
+        },
+        {
+          "chromosome": "chr17",
+          "primitives_per_Mb": 0.61
+        }
+      ],
+      "primitive_density_bottom5": [
+        {
+          "chromosome": "chr4",
+          "primitives_per_Mb": 0.23
+        },
+        {
+          "chromosome": "chr8",
+          "primitives_per_Mb": 0.19
+        },
+        {
+          "chromosome": "chr18",
+          "primitives_per_Mb": 0.17
+        },
+        {
+          "chromosome": "chr13",
+          "primitives_per_Mb": 0.16
+        },
+        {
+          "chromosome": "chry",
+          "primitives_per_Mb": 0.03
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

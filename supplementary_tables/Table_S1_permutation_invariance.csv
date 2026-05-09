@@ -1,0 +1,12 @@
+Mapping,Is_Production,Vocab_Size,Sample_Size
+A=00T=01G=10C=11,True,393,20000
+A=00T=11G=10C=01,False,399,20000
+A=01T=11G=10C=00,False,409,20000
+A=10T=01G=11C=00,False,384,20000
+A=11T=01G=00C=10,False,389,20000
+A=11T=10G=01C=00,False,396,20000
+
+Summary,,,
+Mean vocab size,395.0,Std,7.9
+CV,0.02,Min,384
+Max,409,,

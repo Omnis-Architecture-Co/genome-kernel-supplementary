@@ -1,0 +1,11 @@
+{
+  "test_id": "ROB-12",
+  "test_name": "Progressive Peel Analysis",
+  "timestamp": "2026-05-03T22:27:46.357383",
+  "status": "VERIFIED_FROM_JSON",
+  "layers": [
+    "L0",
+    "L1",
+    "L2"
+  ]
+}

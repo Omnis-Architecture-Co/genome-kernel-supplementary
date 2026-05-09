@@ -1,0 +1,4 @@
+word_hex,word_length,occurrences,expected,token_enrichment,carrier_proteins,carrier_genes_go,carrier_genes_total,primary_function,primary_func_enrichment,primary_func_p_value,primary_func_carriers_in_cat,n_significant_functions,all_significant_functions
+0xD5AD,2,124,7.5,16.5,124,31,124,Signaling,3.19,0.0038616746080879717,7,1,Signaling(3.19x)
+0xB6DB,2,79,12.1,6.6,79,17,79,Unclassified,0,1.0,0,0,
+0xB6D5,2,51,8.7,5.9,51,15,51,Unclassified,0,1.0,0,0,

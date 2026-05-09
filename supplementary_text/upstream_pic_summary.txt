@@ -1,0 +1,51 @@
+======================================================================
+OMNIS UPSTREAM PIC ANALYSIS RESULTS
+======================================================================
+
+Token counts:
+  Total tokens: 47771
+  Assigned to genes: 47771
+  Upstream: 2655
+  Gene body: 45116
+
+PIC enrichment:
+  Genes with upstream PIC carriers: 96 / 100
+  Mean upstream PIC %: 9.99
+  Mean genebody PIC %: 7.9
+
+Paired t-test (upstream vs genebody):
+  t = 3.345
+  p = 0.001164
+  Cohen's d = 0.336
+
+Baseline comparison:
+  Vocabulary baseline PIC rate: 7.7%
+  Upstream enrichment vs baseline: 1.3x
+
+Top PIC proteins found upstream (gene count):
+  MED25: 47 / 100 genes
+  MED9: 40 / 100 genes
+  GTF2A1: 35 / 100 genes
+  Gtf2a1: 33 / 100 genes
+  MED14: 31 / 100 genes
+  MED23: 25 / 100 genes
+  MED15: 19 / 100 genes
+  MED12: 15 / 100 genes
+  Med13: 11 / 100 genes
+  MED26: 7 / 100 genes
+  Med1: 6 / 100 genes
+  Med15: 6 / 100 genes
+  Polr2A: 6 / 100 genes
+  MED8: 6 / 100 genes
+  Med8: 6 / 100 genes
+  TAF2: 5 / 100 genes
+  MED19: 5 / 100 genes
+  POLR2B: 5 / 100 genes
+  Polr2b: 5 / 100 genes
+  Gtf2h1: 5 / 100 genes
+
+Genes with NO upstream PIC: 4
+  AKT1 (Signaling): 19 upstream tokens
+  ARF1 (GTPase): 23 upstream tokens
+  CD4 (Immune): 24 upstream tokens
+  XRCC1 (DNA_repair): 24 upstream tokens

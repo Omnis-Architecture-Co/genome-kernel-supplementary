@@ -1,0 +1,5 @@
+Condition,N_Proteins,Hits_2byte,Hits_3byte,Hits_4byte,Hits_5byte,Structure_Dependent_Hits_3plus,Pct_With_3plus_Byte,Programs_StructDep,Dispatch_Edges_StructDep
+Real biological proteins,3000,146419,47049,20678,10586,78313,27.1,1,0
+Random AA (composition-matched),3000,28835,955,3,0,958,16.6,0,0
+Shuffled AA (order destroyed),3000,29115,1010,6,0,1016,16.7,0,0
+Random DNA,3000,8679,26,1,0,27,0.7,0,0

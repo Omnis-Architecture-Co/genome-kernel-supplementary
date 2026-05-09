@@ -1,0 +1,5 @@
+Word_Length_Bytes,Vocab_Words,Real_Hits,Shuffled_Hits,Ratio,Real_Coverage_Pct,Shuffled_Coverage_Pct
+2,978,337460,313733,1.08,100.0,100.0
+3,607,25446,11881,2.14,100.0,98.5
+4,206,2707,123,22.01,100.0,27.7
+5,141,1357,10,135.7,100.0,5.0

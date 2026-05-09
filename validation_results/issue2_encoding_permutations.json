@@ -1,0 +1,62 @@
+{
+  "test": "Issue #2: Encoding Permutation Invariance",
+  "timestamp": "2026-03-13T18:46:19.122265+00:00",
+  "total_permutations_possible": 24,
+  "permutations_tested": 6,
+  "sample_size": 20000,
+  "per_permutation": [
+    {
+      "perm_idx": 0,
+      "mapping": "A=00T=01G=10C=11",
+      "is_production": true,
+      "vocabulary_size": 393
+    },
+    {
+      "perm_idx": 5,
+      "mapping": "A=00T=11G=10C=01",
+      "is_production": false,
+      "vocabulary_size": 399
+    },
+    {
+      "perm_idx": 11,
+      "mapping": "A=01T=11G=10C=00",
+      "is_production": false,
+      "vocabulary_size": 409
+    },
+    {
+      "perm_idx": 15,
+      "mapping": "A=10T=01G=11C=00",
+      "is_production": false,
+      "vocabulary_size": 384
+    },
+    {
+      "perm_idx": 20,
+      "mapping": "A=11T=01G=00C=10",
+      "is_production": false,
+      "vocabulary_size": 389
+    },
+    {
+      "perm_idx": 23,
+      "mapping": "A=11T=10G=01C=00",
+      "is_production": false,
+      "vocabulary_size": 396
+    }
+  ],
+  "summary": {
+    "vocab_sizes": [
+      393,
+      399,
+      409,
+      384,
+      389,
+      396
+    ],
+    "mean": 395.0,
+    "std": 7.9,
+    "cv": 0.02,
+    "min": 384,
+    "max": 409,
+    "production_size": 393
+  },
+  "conclusion": "Vocabulary size is stable across 6 nucleotide-to-binary permutations (CV=0.0200). Mean=395, range=[384, 409]. The encoding produces structurally equivalent vocabularies regardless of nucleotide-to-binary assignment."
+}

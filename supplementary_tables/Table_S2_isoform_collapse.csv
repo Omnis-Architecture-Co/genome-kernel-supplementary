@@ -1,0 +1,8 @@
+Test,Metric,All_Isoforms,Canonical_Only,Delta,Both_Significant
+ENC-001,t-statistic,5.579,7.957,2.378,True
+ENC-001,p-value,2.80e-08,3.34e-15,,
+ENC-001,Hit ratio,1.696,1.784,0.088,
+ENC-001,N proteins,1000,1000,,
+CON-001,z-statistic (all isoforms),86.4,,,
+CON-001,z-statistic (canonical),84.2*,,,* estimated from canonical subset
+CON-001,p-value,< 0.001,< 0.001,,Yes

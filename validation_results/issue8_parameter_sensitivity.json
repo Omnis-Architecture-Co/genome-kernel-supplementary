@@ -1,0 +1,151 @@
+{
+  "test": "Issue #8: Token Discovery Parameter Sensitivity",
+  "timestamp": "2026-03-13T18:47:56.011754+00:00",
+  "method": "Tested 12 parameter configurations on 20,000 proteins. Varied window size (2-3, 2-5, 2-7), top-N cap (50, 100, 200), min occurrences (25, 50, 100), and min enrichment (3.0, 5.0, 8.0).",
+  "sample_size": 20000,
+  "production_defaults": {
+    "max_window": 5,
+    "max_rank": 100,
+    "min_occ": 50,
+    "min_enrich": 5.0
+  },
+  "configurations": [
+    {
+      "label": "Window 2-3",
+      "params": {
+        "max_window": 3
+      },
+      "vocab_size": 365
+    },
+    {
+      "label": "Window 2-5 (PRODUCTION)",
+      "params": {
+        "max_window": 5
+      },
+      "vocab_size": 393
+    },
+    {
+      "label": "Window 2-7",
+      "params": {
+        "max_window": 7
+      },
+      "vocab_size": 389
+    },
+    {
+      "label": "Cap 50",
+      "params": {
+        "max_rank": 50
+      },
+      "vocab_size": 300
+    },
+    {
+      "label": "Cap 100 (PRODUCTION)",
+      "params": {
+        "max_rank": 100
+      },
+      "vocab_size": 393
+    },
+    {
+      "label": "Cap 200",
+      "params": {
+        "max_rank": 200
+      },
+      "vocab_size": 456
+    },
+    {
+      "label": "MinOcc 25",
+      "params": {
+        "min_occ": 25
+      },
+      "vocab_size": 656
+    },
+    {
+      "label": "MinOcc 50 (PRODUCTION)",
+      "params": {
+        "min_occ": 50
+      },
+      "vocab_size": 393
+    },
+    {
+      "label": "MinOcc 100",
+      "params": {
+        "min_occ": 100
+      },
+      "vocab_size": 186
+    },
+    {
+      "label": "MinEnrich 3.0",
+      "params": {
+        "min_enrich": 3.0
+      },
+      "vocab_size": 781
+    },
+    {
+      "label": "MinEnrich 5.0 (PRODUCTION)",
+      "params": {
+        "min_enrich": 5.0
+      },
+      "vocab_size": 393
+    },
+    {
+      "label": "MinEnrich 8.0",
+      "params": {
+        "min_enrich": 8.0
+      },
+      "vocab_size": 210
+    }
+  ],
+  "summary": {
+    "all_sizes": [
+      365,
+      393,
+      389,
+      300,
+      393,
+      456,
+      656,
+      393,
+      186,
+      781,
+      393,
+      210
+    ],
+    "production_size": 393,
+    "mean": 409.6,
+    "std": 159.7,
+    "cv": 0.39,
+    "by_parameter": {
+      "window": {
+        "sizes": [
+          365,
+          393,
+          389
+        ],
+        "cv": 0.0323
+      },
+      "cap": {
+        "sizes": [
+          300,
+          393,
+          456
+        ],
+        "cv": 0.1673
+      },
+      "min_occ": {
+        "sizes": [
+          656,
+          393,
+          186
+        ]
+      },
+      "min_enrich": {
+        "sizes": [
+          781,
+          393,
+          210
+        ]
+      }
+    }
+  },
+  "conclusion": "Across 12 parameter configurations (4 parameters, 3 values each), vocabulary size ranges from 186 to 781 (overall CV=0.390). Window size has minimal effect (365-393, CV=0.032). Top-N cap modulates vocabulary size monotonically (300-456). Occurrence and enrichment thresholds control stringency as expected: relaxing thresholds (MinOcc 25, MinEnrich 3.0) increases vocabulary, tightening (MinOcc 100, MinEnrich 8.0) decreases it. The core pattern discovery mechanism is robust; threshold parameters act as expected stringency filters rather than fundamentally changing the vocabulary."
+}

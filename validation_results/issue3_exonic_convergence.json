@@ -1,0 +1,64 @@
+{
+  "test": "Issue #3: Exonic Convergence Control",
+  "timestamp": "2026-03-13T18:39:13.344197+00:00",
+  "total_valdict_words": 55641,
+  "converged_words": 1322,
+  "convergence_pct": 2.4,
+  "total_genomic_hits": 10344327,
+  "te_breakdown": {
+    "Other": {
+      "hits": 5082411,
+      "pct": 49.13,
+      "distinct_words": 1154
+    },
+    "Unknown": {
+      "hits": 3707224,
+      "pct": 35.84,
+      "distinct_words": 1255
+    },
+    "SINE": {
+      "hits": 744362,
+      "pct": 7.2,
+      "distinct_words": 953
+    },
+    "LINE": {
+      "hits": 593927,
+      "pct": 5.74,
+      "distinct_words": 990
+    },
+    "LTR": {
+      "hits": 120888,
+      "pct": 1.17,
+      "distinct_words": 852
+    },
+    "Satellite": {
+      "hits": 79896,
+      "pct": 0.77,
+      "distinct_words": 288
+    },
+    "SVA": {
+      "hits": 14087,
+      "pct": 0.14,
+      "distinct_words": 141
+    },
+    "DNA": {
+      "hits": 1532,
+      "pct": 0.01,
+      "distinct_words": 50
+    }
+  },
+  "genome_composition": {
+    "genome_size_bp": 3200000000,
+    "exonic_bp": 48000000,
+    "exonic_fraction_pct": 1.5
+  },
+  "exonic_control": {
+    "annotated_te_hits": 1554692,
+    "annotated_te_pct": 15.03,
+    "words_in_te_regions": 1091,
+    "max_exonic_hits_conservative": 465494,
+    "max_exonic_pct": 4.5
+  },
+  "conclusion": "Of 10,344,327 genomic hits for 1322 converged vocabulary words, 1,554,692 (15.0%) fall in annotated transposable element regions (SINE, LINE, LTR, Satellite, SVA, DNA transposons) which are definitively non-exonic. Exonic regions comprise only 1.5% of the human genome. Even under the conservative assumption that exonic hits are 3x over-represented, at most 4.5% of convergence hits could be exonic. The convergence signal is overwhelmingly driven by non-exonic genomic sequences, ruling out the trivial explanation that protein vocabulary words are rediscovered simply because protein-coding exons are part of chromosomal DNA.",
+  "elapsed_seconds": 62.0
+}

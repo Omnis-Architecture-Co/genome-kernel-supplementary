@@ -1,0 +1,4 @@
+Group,N_Pairs,PPI_Detected,PPI_Rate,High_Confidence_PPI,High_Conf_Rate,Mean_Score,Enrichment_vs_Random
+Dispatch-connected,100,15,0.15,5,0.05,0.3933,2.5
+Same department,100,26,0.26,7,0.07,0.3327,4.33
+Random control,100,6,0.06,1,0.01,0.2908,1.0

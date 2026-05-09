@@ -1,0 +1,8 @@
+word_hex,word_length,occurrences,expected,token_enrichment,carrier_proteins,carrier_genes_go,carrier_genes_total,primary_function,primary_func_enrichment,primary_func_p_value,primary_func_carriers_in_cat,n_significant_functions,all_significant_functions
+0xD5BD,2,51,6.1,8.4,51,21,51,Unclassified,0,1.0,0,0,
+0xD58D,2,56,6.7,8.4,56,26,56,Unclassified,0,1.0,0,0,
+0xD5AD,2,155,19.4,8.0,155,76,155,Ion channel,2.24,0.003766025369205819,13,2,Ion channel(2.24x); Transport(1.62x)
+0xD59D,2,54,7.2,7.5,54,28,54,Transport,2.05,0.0027320772610814575,14,1,Transport(2.05x)
+0xD5B9,2,59,8.1,7.3,59,32,59,Unclassified,0,1.0,0,0,
+0xD5A9,2,73,11.0,6.7,73,37,73,Ion channel,3.19,0.001299286647240221,9,2,Ion channel(3.19x); Transport(2.55x)
+0xD356,2,73,12.5,5.8,73,32,73,Transport,1.92,0.004289548694307237,15,1,Transport(1.92x)

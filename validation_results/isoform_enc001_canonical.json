@@ -1,0 +1,41 @@
+{
+  "test": "Isoform Control: ENC-001 Encoding Null Model",
+  "timestamp": "2026-03-13T22:24:09.198136+00:00",
+  "method": "Re-ran ENC-001 encoding null model (vocabulary hit rate: real vs shuffled sequences) using canonical-only proteins (1 per gene from canonical_gene_uniprot, n=20246) vs all isoforms (n=78007). Each condition sampled 1000 proteins.",
+  "all_isoforms": {
+    "label": "All isoforms (original)",
+    "n_proteins": 1000,
+    "mean_hits_real": 1.952,
+    "mean_hits_shuffled": 1.151,
+    "std_hits_real": 3.806,
+    "std_hits_shuffled": 2.471,
+    "t_statistic": 5.579,
+    "t_p_value": 2.8041569168915025e-08,
+    "hit_ratio": 1.696,
+    "mean_entropy_real": 6.093,
+    "mean_entropy_shuffled": 6.1261,
+    "entropy_p_value": 0.1595458095139051
+  },
+  "canonical_only": {
+    "label": "Canonical only (1 per gene)",
+    "n_proteins": 1000,
+    "mean_hits_real": 3.188,
+    "mean_hits_shuffled": 1.787,
+    "std_hits_real": 4.857,
+    "std_hits_shuffled": 2.717,
+    "t_statistic": 7.957,
+    "t_p_value": 3.3428867053084604e-15,
+    "hit_ratio": 1.784,
+    "mean_entropy_real": 6.3416,
+    "mean_entropy_shuffled": 6.3755,
+    "entropy_p_value": 0.05774494586238798
+  },
+  "comparison": {
+    "t_ratio": 1.426,
+    "hit_ratio_canonical": 1.784,
+    "hit_ratio_all": 1.696,
+    "both_significant": true
+  },
+  "conclusion": "Canonical-only analysis (1000 proteins from 20246 genes) yields t=7.96 (p=3.34e-15) vs all-isoform t=5.58 (p=2.80e-08). Hit ratio: 1.784x vs 1.696x. Both are highly significant. Isoform inflation does not explain the encoding signal.",
+  "elapsed_seconds": 16.0
+}

@@ -1,0 +1,128 @@
+{
+  "test_id": "VAL-PRM-001",
+  "test_name": "Primitive Recurrence Permutation Test",
+  "timestamp": "2026-03-12T07:49:14.338081+00:00",
+  "parameters": {
+    "n_programs": 4936,
+    "n_primitives": 116,
+    "n_chromosomes": 24,
+    "n_permutations": 1000,
+    "seed": 42,
+    "null_model": "shuffle existing function_sequence assignments across chromosomes preserving per-chromosome program counts, recompute per-chromosome recurrence and multi-chromosome spread"
+  },
+  "provenance": {
+    "programs_file": "/home/runner/workspace/validation/../exports/programs_annotated.csv",
+    "programs_md5": "23285bb0d53c05b4f1b30b8f7bbef86d",
+    "programs_rows": 4936,
+    "primitives_file": "/home/runner/workspace/validation/../exports/primitive_annotations_complete.csv",
+    "primitives_md5": "a73f48eab42ce10ad280ca13e3745f8e",
+    "primitives_rows": 116
+  },
+  "results": {
+    "observed": {
+      "unique_function_sequences": 678,
+      "max_recurrence_global": 272,
+      "mean_recurrence": 7.28,
+      "high_recurrence_count_ge5": 154,
+      "multi_chromosome_count_ge3": 68,
+      "per_chromosome_max_recurrence": 195,
+      "chromosome_concentration_hhi": 0.7993,
+      "top_recurrent": [
+        {
+          "sequence": "Unclassified|Cytoskeleton|DNA repair",
+          "count": 272
+        },
+        {
+          "sequence": "Unclassified|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Transcription",
+          "count": 195
+        },
+        {
+          "sequence": "Unclassified|Cell cycle|Methylation|Transcription",
+          "count": 141
+        },
+        {
+          "sequence": "Unclassified|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Transcription",
+          "count": 136
+        },
+        {
+          "sequence": "Unclassified|Kinase|Cell cycle",
+          "count": 131
+        },
+        {
+          "sequence": "Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell cycle",
+          "count": 128
+        },
+        {
+          "sequence": "Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell adhesion|Unclassified|Cell cycle",
+          "count": 112
+        },
+        {
+          "sequence": "Unclassified|Cell adhesion|Chromatin|Unclassified",
+          "count": 108
+        },
+        {
+          "sequence": "Unclassified|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Cell cycle|Methylation|Transcription|Chromatin|Transcription|Chromatin|Transcription|Chromatin|Transcription|Chromatin|Transcription|Chromatin",
+          "count": 108
+        },
+        {
+          "sequence": "Transcription|Cytoskeleton|Phosphatase",
+          "count": 105
+        }
+      ]
+    },
+    "null_distribution": {
+      "multi_chrom_mean": 221.37,
+      "multi_chrom_std": 4.85,
+      "per_chrom_max_mean": 102.19,
+      "per_chrom_max_std": 7.66,
+      "concentration_mean": 0.4224,
+      "concentration_std": 0.0072
+    },
+    "p_value_multi_chromosome": 0.001998002,
+    "p_value_per_chrom_max": 0.000999001,
+    "p_value_concentration": 0.001998002,
+    "z_score_multi": -31.61,
+    "z_score_per_chrom": 12.12,
+    "z_score_concentration": 52.36,
+    "spearman_recurrence_vs_chromosomes": {
+      "r": 0.7309,
+      "p_value": 1.226606e-20
+    },
+    "classification_distribution": {
+      "NAMED_GENE": 68,
+      "REGULATORY": 20,
+      "REPEAT_ELEMENT": 10,
+      "TRULY_UNKNOWN": 8,
+      "CONSERVED": 6,
+      "T2T_NOVEL": 4
+    },
+    "chromosome_program_counts": {
+      "chr1": 165,
+      "chr10": 95,
+      "chr11": 96,
+      "chr12": 79,
+      "chr13": 82,
+      "chr14": 1847,
+      "chr15": 271,
+      "chr16": 77,
+      "chr17": 90,
+      "chr18": 29,
+      "chr19": 85,
+      "chr2": 152,
+      "chr20": 55,
+      "chr21": 172,
+      "chr22": 921,
+      "chr3": 118,
+      "chr4": 85,
+      "chr5": 97,
+      "chr6": 99,
+      "chr7": 101,
+      "chr8": 70,
+      "chr9": 72,
+      "chrx": 73,
+      "chry": 5
+    }
+  },
+  "conclusion": "SIGNIFICANT: Chromosome-shuffle null preserving per-chromosome program counts. Multi-chromosome spread (\u22653 chroms): 68 observed vs 221.4 null (z=-31.61, p_2sided=1.9980e-03). Per-chromosome max recurrence: 195 observed vs 102.2 null (z=12.12, p=9.9900e-04). Chromosome concentration (mean HHI): 0.7993 vs 0.4224 null (z=52.36, p_2sided=1.9980e-03). Spearman(recurrence, n_chromosomes): r=0.731 (p=1.23e-20). From 4936 programs and 116 annotated primitives.",
+  "elapsed_seconds": 6.4
+}

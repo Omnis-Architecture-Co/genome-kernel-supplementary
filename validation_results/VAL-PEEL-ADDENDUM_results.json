@@ -1,0 +1,180 @@
+{
+  "test_id": "VAL-PEEL-ADDENDUM",
+  "test_name": "Progressive Peel Analysis (Mitochondrial + Transcription Removal)",
+  "timestamp": "2026-03-12T14:24:55.155146+00:00",
+  "parameters": {
+    "n_permutations": 1000,
+    "seed": 42,
+    "layers": {
+      "L0": [],
+      "L1": [
+        "Mitochondrial"
+      ],
+      "L2": [
+        "Mitochondrial",
+        "Transcription"
+      ]
+    }
+  },
+  "layers": {
+    "L0": {
+      "excluded": [],
+      "CON-001": {
+        "n_words": 55641,
+        "n_functions": 27,
+        "n_proteins": 93296,
+        "proteins_tested": 79035,
+        "observed_overlap": 0.428356,
+        "null_mean": 0.228366,
+        "null_std": 0.002315,
+        "z_score": 86.37,
+        "p_value": 0.000999,
+        "enrichment": 1.88
+      },
+      "PRM-001": {
+        "n_programs": 4936,
+        "n_primitives": 116,
+        "unique_sequences": 678,
+        "max_recurrence": 272,
+        "mean_recurrence": 7.3,
+        "high_recurrence_ge5": 154,
+        "multi_chrom_ge3": 68,
+        "per_chrom_max": 195,
+        "concentration_hhi": 0.7993,
+        "p_per_chrom_max": 0.000999,
+        "z_per_chrom_max": 12.59,
+        "p_concentration": 0.001998,
+        "z_concentration": 53.41,
+        "null_pcm_mean": 102.0,
+        "null_conc_mean": 0.4223
+      },
+      "XSP-001": {
+        "n_species": 6,
+        "n_opcodes": 22,
+        "n_pairs": 10,
+        "mean_tau": 0.5974,
+        "kendall_tau_vs_divergence": -0.4944,
+        "p_analytic": 0.048193,
+        "p_permutation": 0.032967,
+        "spearman_r": -0.614,
+        "spearman_p": 0.058981,
+        "words_per_species": {
+          "human": 1494,
+          "mouse": 921,
+          "zebrafish": 1827,
+          "fly": 631,
+          "yeast": 98,
+          "ecoli": 4
+        }
+      }
+    },
+    "L1": {
+      "excluded": [
+        "Mitochondrial"
+      ],
+      "CON-001": {
+        "n_words": 48567,
+        "n_functions": 26,
+        "n_proteins": 82501,
+        "proteins_tested": 65850,
+        "observed_overlap": 0.408184,
+        "null_mean": 0.260235,
+        "null_std": 0.003492,
+        "z_score": 42.37,
+        "p_value": 0.000999,
+        "enrichment": 1.57
+      },
+      "PRM-001": {
+        "n_programs": 4936,
+        "n_primitives": 116,
+        "unique_sequences": 678,
+        "max_recurrence": 272,
+        "mean_recurrence": 7.3,
+        "high_recurrence_ge5": 154,
+        "multi_chrom_ge3": 68,
+        "per_chrom_max": 195,
+        "concentration_hhi": 0.7993,
+        "p_per_chrom_max": 0.000999,
+        "z_per_chrom_max": 12.59,
+        "p_concentration": 0.001998,
+        "z_concentration": 53.41,
+        "null_pcm_mean": 102.0,
+        "null_conc_mean": 0.4223
+      },
+      "XSP-001": {
+        "n_species": 6,
+        "n_opcodes": 22,
+        "n_pairs": 10,
+        "mean_tau": 0.5974,
+        "kendall_tau_vs_divergence": -0.4944,
+        "p_analytic": 0.048193,
+        "p_permutation": 0.032967,
+        "spearman_r": -0.614,
+        "spearman_p": 0.058981,
+        "words_per_species": {
+          "human": 1494,
+          "mouse": 921,
+          "zebrafish": 1827,
+          "fly": 631,
+          "yeast": 98,
+          "ecoli": 4
+        }
+      }
+    },
+    "L2": {
+      "excluded": [
+        "Mitochondrial",
+        "Transcription"
+      ],
+      "CON-001": {
+        "n_words": 37789,
+        "n_functions": 25,
+        "n_proteins": 72925,
+        "proteins_tested": 54858,
+        "observed_overlap": 0.352627,
+        "null_mean": 0.27133,
+        "null_std": 0.001722,
+        "z_score": 47.22,
+        "p_value": 0.000999,
+        "enrichment": 1.3
+      },
+      "PRM-001": {
+        "n_programs": 2909,
+        "n_primitives": 87,
+        "unique_sequences": 485,
+        "max_recurrence": 272,
+        "mean_recurrence": 6.0,
+        "high_recurrence_ge5": 95,
+        "multi_chrom_ge3": 54,
+        "per_chrom_max": 128,
+        "concentration_hhi": 0.7744,
+        "p_per_chrom_max": 0.000999,
+        "z_per_chrom_max": 7.51,
+        "p_concentration": 0.001998,
+        "z_concentration": 54.38,
+        "null_pcm_mean": 75.2,
+        "null_conc_mean": 0.3874
+      },
+      "XSP-001": {
+        "n_species": 6,
+        "n_opcodes": 21,
+        "n_pairs": 10,
+        "mean_tau": 0.5319,
+        "kendall_tau_vs_divergence": -0.5394,
+        "p_analytic": 0.031141,
+        "p_permutation": 0.026973,
+        "spearman_r": -0.6383,
+        "spearman_p": 0.047024,
+        "words_per_species": {
+          "human": 969,
+          "mouse": 612,
+          "zebrafish": 994,
+          "fly": 343,
+          "yeast": 73,
+          "ecoli": 4
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 94.7
+}

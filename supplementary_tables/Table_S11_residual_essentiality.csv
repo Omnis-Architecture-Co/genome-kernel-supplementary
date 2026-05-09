@@ -1,0 +1,18 @@
+Metric,Value
+Total testable genes,8706
+BLAST-proxy eta-squared,0.0184
+Vocabulary residual eta-squared,0.0236
+Vocabulary alone eta-squared,0.0287
+True department eta-squared,0.2042
+Combined explained variance,0.0416
+F-statistic,10.01
+Permutation p-value,0.0
+N permutations,2000
+,
+--- Orphan Gene Analysis ---,
+Orphan (jaccard_lt_0.05): n_genes,98
+Orphan (jaccard_lt_0.05): vocab eta-squared,0.1041
+Orphan (jaccard_lt_0.05): F-statistic,0.91
+Orphan (jaccard_lt_0.1): n_genes,3663
+Orphan (jaccard_lt_0.1): vocab eta-squared,0.0183
+Orphan (jaccard_lt_0.1): F-statistic,3.57

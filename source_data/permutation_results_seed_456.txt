@@ -1,0 +1,21 @@
+============================================================
+PERMUTATION TEST RESULTS
+============================================================
+Seed: 456
+Permutations: 10000
+Upstream tokens: 2655
+Total pool tokens: 47771
+
+Observed PIC tokens: 261
+Observed PIC rate: 9.83%
+
+Null mean: 215.6
+Null std: 13.7
+Null PIC rate: 8.12%
+
+z-score: 3.322
+p-value: 0.0008
+
+Null distribution range: 164 - 268
+Null 95th percentile: 238.0
+Null 99th percentile: 247.0

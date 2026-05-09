@@ -1,0 +1,9 @@
+{
+  "test_id": "ROB-10",
+  "test_name": "Priority Scoring Robustness",
+  "timestamp": "2026-05-03T22:27:46.306019",
+  "status": "VERIFIED_FROM_JSON",
+  "mean_spearman_rho": 0.9878,
+  "min_spearman_rho": 0.9354,
+  "n_configs": 9
+}

@@ -1,0 +1,10 @@
+{
+  "test_id": "ROB-04",
+  "test_name": "Gene Density Normalization",
+  "timestamp": "2026-05-03T22:27:21.544909",
+  "chr19_raw_ratio": 1.601925104772205,
+  "chr19_normalized_ratio": 1.601925104772205,
+  "chr19_raw_rank": 1,
+  "chr19_normalized_rank": 1,
+  "chr19_retains_top_rank": "True"
+}

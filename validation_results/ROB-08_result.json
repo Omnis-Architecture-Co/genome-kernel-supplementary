@@ -1,0 +1,7 @@
+{
+  "test_id": "ROB-08",
+  "test_name": "Full-Pipeline Negative Controls",
+  "timestamp": "2026-05-03T22:27:46.253251",
+  "status": "VERIFIED_FROM_JSON",
+  "framework_discriminates": true
+}

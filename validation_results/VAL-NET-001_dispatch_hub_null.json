@@ -1,0 +1,179 @@
+{
+  "test_id": "VAL-NET-001",
+  "test_name": "Dispatch Hub Null Model",
+  "timestamp": "2026-03-12T06:30:11.694757+00:00",
+  "parameters": {
+    "n_permutations": 10000,
+    "seed": 42,
+    "n_chromosomes": 24,
+    "n_edges": 552
+  },
+  "provenance": {
+    "database": "BETA_DATABASE_URL",
+    "table": "cross_chrom_matrix"
+  },
+  "results": {
+    "chrM": {
+      "total_flow": 0,
+      "null_mean": 0.0,
+      "null_std": 0.0,
+      "z_score": 0.0,
+      "p_value": 1.0
+    },
+    "chr19": {
+      "total_flow": 1925434.0,
+      "null_mean": 1895976.52,
+      "null_std": 880017.87,
+      "z_score": 0.03,
+      "p_value": 0.5358464
+    },
+    "all_chromosome_scores": {
+      "chr1": {
+        "out_degree": 2558770.0,
+        "in_degree": 1762434.0,
+        "total_flow": 4321204.0,
+        "asymmetry": 0.18
+      },
+      "chr10": {
+        "out_degree": 1130376.0,
+        "in_degree": 1029920.0,
+        "total_flow": 2160296.0,
+        "asymmetry": 0.05
+      },
+      "chr11": {
+        "out_degree": 1251438.0,
+        "in_degree": 1053562.0,
+        "total_flow": 2305000.0,
+        "asymmetry": 0.09
+      },
+      "chr12": {
+        "out_degree": 1128556.0,
+        "in_degree": 989390.0,
+        "total_flow": 2117946.0,
+        "asymmetry": 0.07
+      },
+      "chr13": {
+        "out_degree": 1279614.0,
+        "in_degree": 991008.0,
+        "total_flow": 2270622.0,
+        "asymmetry": 0.13
+      },
+      "chr14": {
+        "out_degree": 703468.0,
+        "in_degree": 657392.0,
+        "total_flow": 1360860.0,
+        "asymmetry": 0.03
+      },
+      "chr15": {
+        "out_degree": 1063788.0,
+        "in_degree": 785344.0,
+        "total_flow": 1849132.0,
+        "asymmetry": 0.15
+      },
+      "chr16": {
+        "out_degree": 1218766.0,
+        "in_degree": 831868.0,
+        "total_flow": 2050634.0,
+        "asymmetry": 0.19
+      },
+      "chr17": {
+        "out_degree": 1053910.0,
+        "in_degree": 878282.0,
+        "total_flow": 1932192.0,
+        "asymmetry": 0.09
+      },
+      "chr18": {
+        "out_degree": 616454.0,
+        "in_degree": 570124.0,
+        "total_flow": 1186578.0,
+        "asymmetry": 0.04
+      },
+      "chr19": {
+        "out_degree": 1184944.0,
+        "in_degree": 740490.0,
+        "total_flow": 1925434.0,
+        "asymmetry": 0.23
+      },
+      "chr2": {
+        "out_degree": 1897888.0,
+        "in_degree": 1541140.0,
+        "total_flow": 3439028.0,
+        "asymmetry": 0.1
+      },
+      "chr20": {
+        "out_degree": 522556.0,
+        "in_degree": 431542.0,
+        "total_flow": 954098.0,
+        "asymmetry": 0.1
+      },
+      "chr21": {
+        "out_degree": 369264.0,
+        "in_degree": 328598.0,
+        "total_flow": 697862.0,
+        "asymmetry": 0.06
+      },
+      "chr22": {
+        "out_degree": 468382.0,
+        "in_degree": 385038.0,
+        "total_flow": 853420.0,
+        "asymmetry": 0.1
+      },
+      "chr3": {
+        "out_degree": 1412066.0,
+        "in_degree": 1390358.0,
+        "total_flow": 2802424.0,
+        "asymmetry": 0.01
+      },
+      "chr4": {
+        "out_degree": 631168.0,
+        "in_degree": 1092690.0,
+        "total_flow": 1723858.0,
+        "asymmetry": -0.27
+      },
+      "chr5": {
+        "out_degree": 1118996.0,
+        "in_degree": 1327548.0,
+        "total_flow": 2446544.0,
+        "asymmetry": -0.09
+      },
+      "chr6": {
+        "out_degree": 1120744.0,
+        "in_degree": 1330962.0,
+        "total_flow": 2451706.0,
+        "asymmetry": -0.09
+      },
+      "chr7": {
+        "out_degree": 1114210.0,
+        "in_degree": 1403616.0,
+        "total_flow": 2517826.0,
+        "asymmetry": -0.11
+      },
+      "chr8": {
+        "out_degree": 680534.0,
+        "in_degree": 965188.0,
+        "total_flow": 1645722.0,
+        "asymmetry": -0.17
+      },
+      "chr9": {
+        "out_degree": 179372.0,
+        "in_degree": 1023484.0,
+        "total_flow": 1202856.0,
+        "asymmetry": -0.7
+      },
+      "chrx": {
+        "out_degree": 111648.0,
+        "in_degree": 1070830.0,
+        "total_flow": 1182478.0,
+        "asymmetry": -0.81
+      },
+      "chry": {
+        "out_degree": 5496.0,
+        "in_degree": 241600.0,
+        "total_flow": 247096.0,
+        "asymmetry": -0.96
+      }
+    }
+  },
+  "conclusion": "chrM hub status: NOT SIGNIFICANT (total_flow=0, null mean=0, z=0.00, p=1.0000e+00). chr19 hub status: NOT SIGNIFICANT (total_flow=1925434, null mean=1895977, z=0.03, p=5.3585e-01).",
+  "elapsed_seconds": 3.4
+}

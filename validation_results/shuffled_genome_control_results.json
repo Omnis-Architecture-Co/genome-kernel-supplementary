@@ -1,0 +1,51 @@
+{
+  "test": "Shuffled Genome Control - Length-Stratified Analysis",
+  "method": "Protein sequences were shuffled (preserving AA composition, destroying order) and re-encoded through the 6-bit pipeline. The production vocabulary (1,932 words) was matched against both real and shuffled byte streams, stratified by vocabulary word length.",
+  "sample_size": 5000,
+  "length_stratified": [
+    {
+      "word_length_bytes": 2,
+      "vocabulary_words": 978,
+      "real_hits": 337460,
+      "shuffled_hits": 313733,
+      "ratio": 1.08,
+      "real_coverage_pct": 100.0,
+      "shuffled_coverage_pct": 100.0,
+      "interpretation": "2-byte patterns are largely composition-dependent; most appear in both real and shuffled sequences."
+    },
+    {
+      "word_length_bytes": 3,
+      "vocabulary_words": 607,
+      "real_hits": 25446,
+      "shuffled_hits": 11881,
+      "ratio": 2.14,
+      "real_coverage_pct": 100.0,
+      "shuffled_coverage_pct": 98.5,
+      "func_coherence_real": 0.358,
+      "func_coherence_shuffled": 0.238,
+      "coherence_ratio": 1.5,
+      "interpretation": "3-byte patterns show 2.1x enrichment in real sequences and 1.5x higher functional coherence."
+    },
+    {
+      "word_length_bytes": 4,
+      "vocabulary_words": 206,
+      "real_hits": 2707,
+      "shuffled_hits": 123,
+      "ratio": 22.01,
+      "real_coverage_pct": 100.0,
+      "shuffled_coverage_pct": 27.7,
+      "interpretation": "4-byte patterns are 22x more frequent in real sequences. Only 28% of 4-byte vocabulary words appear at all in shuffled sequences."
+    },
+    {
+      "word_length_bytes": 5,
+      "vocabulary_words": 141,
+      "real_hits": 1357,
+      "shuffled_hits": 10,
+      "ratio": 135.7,
+      "real_coverage_pct": 100.0,
+      "shuffled_coverage_pct": 5.0,
+      "interpretation": "5-byte patterns are virtually absent from shuffled sequences (136x ratio). Only 5% of 5-byte vocabulary words appear at all, confirming these patterns depend entirely on real sequence order."
+    }
+  ],
+  "conclusion": "Shuffling protein sequences while preserving amino acid composition progressively destroys vocabulary matches as word length increases: 1.08x at 2 bytes, 2.1x at 3 bytes, 22x at 4 bytes, and 136x at 5 bytes. The 2-byte (composition-dependent) words constitute 50.6% of the vocabulary but the longer words that carry the functional signal are almost entirely absent from shuffled sequences. This confirms that the computational vocabulary is a property of real protein sequence order, not an artifact of amino acid composition or the encoding methodology."
+}

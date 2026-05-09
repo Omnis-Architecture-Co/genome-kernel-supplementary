@@ -1,0 +1,40 @@
+{
+  "test": "Issue #6: Isoform Inflation Control",
+  "timestamp": "2026-03-13T18:48:35.565172+00:00",
+  "method": "Re-ran CON-001 convergence null model with 20581 canonical isoforms (1 per gene from canonical_gene_uniprot) vs 93465 total isoforms. Same null model: 1000 permutations shuffling vocabulary labels.",
+  "all_isoforms": {
+    "label": "All isoforms (original)",
+    "n_proteins": 93296,
+    "n_proteins_valid": 79035,
+    "mean_tokens_per_protein": 18.6,
+    "total_token_slots": 1733554,
+    "observed_overlap": 0.428356,
+    "null_mean": 0.228366,
+    "null_std": 0.002315,
+    "z_score": 86.37,
+    "p_value": 0.000999001,
+    "enrichment": 1.88,
+    "elapsed_seconds": 25.1
+  },
+  "canonical_only": {
+    "label": "Canonical only (1 per gene)",
+    "n_proteins": 18725,
+    "n_proteins_valid": 17234,
+    "mean_tokens_per_protein": 24.5,
+    "total_token_slots": 458353,
+    "observed_overlap": 0.404465,
+    "null_mean": 0.194376,
+    "null_std": 0.002496,
+    "z_score": 84.17,
+    "p_value": 0.000999001,
+    "enrichment": 2.08,
+    "elapsed_seconds": 4.7
+  },
+  "comparison": {
+    "z_ratio": 0.975,
+    "overlap_ratio": 0.944,
+    "isoform_multiplier": 4.54
+  },
+  "conclusion": "Canonical-only analysis (1 isoform per gene, 20581 proteins) yields z=84.2 vs all-isoform z=86.4 (ratio=0.97). Enrichment: 2.08x vs 1.88x. Both are highly significant (p<0.001). Isoform inflation does not explain the convergence signal.",
+  "elapsed_seconds": 37.9
+}

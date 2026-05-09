@@ -1,0 +1,76 @@
+SUPPLEMENTARY NOTE 1: ENCODING PIPELINE WORKED EXAMPLES
+============================================================
+
+Two complete walkthroughs trace biological sequences through the
+6-bit encoding pipeline described in Methods. Each step shows
+intermediate values to enable independent verification.
+
+============================================================
+Worked Example: Nucleolin (P19338) - Protein Pathway
+============================================================
+
+Amino acid sequence (first 20 of 52 residues):
+  MVSKLAKFAKGETSAKKPEA
+
+Step 1: Amino acid to representative DNA codon
+  M  V  S  K  L  A  K  F  A  K  G  E  T  S  A  K  K  P  E  A
+  ATG  GTT  TCT  AAG  TTG  GCT  AAG  TTT  GCT  AAG  GGT  GAG  ACT  TCT  GCT  AAG  AAG  CCT  GAG  GCT
+
+Step 2: DNA to binary (A=00, T=01, G=10, C=11)
+  M -> ATG -> 000110
+  V -> GTT -> 100101
+  S -> TCT -> 011101
+  K -> AAG -> 000010
+  L -> TTG -> 010110
+  A -> GCT -> 101101
+  K -> AAG -> 000010
+  F -> TTT -> 010101
+  ... (12 more)
+
+Step 3: Binary stream (first 48 bits shown)
+  000110100101011101000010010110101101000010010101...
+
+Step 4: Partition into 8-bit bytes
+  Byte stream (first 12 of 39 bytes):
+  Binary:  00011010  01010111  01000010  01011010  11010000  10010101
+  Decimal: 26  87  66  90  208  149
+  Hex:     1A  57  42  5A  D0  95
+           B4  2A  62  35  DB  42 ...
+
+Step 5: Full encoding summary
+  Amino acids:     52
+  DNA nucleotides: 156
+  Binary bits:     312
+  Byte stream:     39 bytes
+
+
+============================================================
+Worked Example: Insulin INS Locus (chr11) - DNA Pathway
+============================================================
+
+Genomic DNA sequence (first 51 nt of CDS):
+  ATGGCCCTGTGGATGCGCCTCCTGCCCCTGCTGGCGCTGCTGGCCCTCTGG
+
+Step 1: DNA to binary (A=00, T=01, G=10, C=11)
+  ATGG -> 00011010
+  CCCT -> 11111101
+  GTGG -> 10011010
+  ATGC -> 00011011
+  GCCT -> 10111101
+  CCTG -> 11110110
+  ... (27 more nucleotides)
+
+Step 2: Binary stream (first 48 bits):
+  000110101111110110011010000110111011110111110110...
+
+Step 3: Partition into 8-bit bytes
+  Byte stream (first 12 of 12 bytes):
+  Binary:  00011010  11111101  10011010  00011011  10111101  11110110
+  Decimal: 26  253  154  27  189  246
+  Hex:     1A  FD  9A  1B  BD  F6
+           FF  6D  AE  DB  6B  F7
+
+Note: The DNA pathway skips the amino-acid-to-codon step.
+Binary encoding is applied directly to the genomic nucleotide
+sequence, producing a byte stream that can be matched against
+the same vocabulary used for protein-derived encodings.

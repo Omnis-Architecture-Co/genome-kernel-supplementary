@@ -1,0 +1,33 @@
+{
+  "test": "Q4 v2: Vocabulary adds essentiality signal beyond sequence similarity",
+  "n_genes": 8706,
+  "test_A_residual": {
+    "blast_proxy_eta_squared": 0.0184,
+    "vocab_residual_eta_squared": 0.0236,
+    "vocab_alone_eta_squared": 0.0287,
+    "true_dept_eta_squared": 0.2042,
+    "combined_explained": 0.0416,
+    "F_statistic": 10.01,
+    "df": 21,
+    "p_permutation": 0.0,
+    "n_permutations": 2000,
+    "interpretation": "BLAST-proxy departments explain 1.8% of essentiality variance. After removing this signal, vocabulary departments explain an additional 2.3% of the remaining variance (residual eta2 = 0.0236, p_perm = 0.0000). This demonstrates that the vocabulary captures functional information about gene essentiality that sequence similarity alone does not."
+  },
+  "test_B_orphans": {
+    "jaccard_lt_0.05": {
+      "n_orphans": 98,
+      "n_departments": 12,
+      "vocab_eta_squared": 0.1041,
+      "F_statistic": 0.91,
+      "df": 11
+    },
+    "jaccard_lt_0.1": {
+      "n_orphans": 3663,
+      "n_departments": 20,
+      "vocab_eta_squared": 0.0183,
+      "F_statistic": 3.57,
+      "df": 19
+    }
+  },
+  "conclusion": "The vocabulary's functional signal is significantly independent of sequence similarity. After BLAST-proxy departments explain 1.8% of essentiality variance, vocabulary departments explain an additional 2.3% of residual variance (p_perm = 0.0000, 2000 permutations). "
+}

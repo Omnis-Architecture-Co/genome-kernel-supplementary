@@ -1,0 +1,306 @@
+{
+  "test_id": "VAL-05",
+  "test_name": "Cross-Species Vocabulary Conservation",
+  "timestamp": "2026-05-03T22:27:55.642357",
+  "n_species": 9,
+  "n_pairs": 36,
+  "n_permutations": 1000,
+  "seed": 42,
+  "tau_divergence_correlation": {
+    "kendall_tau": -0.44904686319932763,
+    "kendall_p": 0.00012177837801126351,
+    "spearman_r": -0.6216529557228155,
+    "spearman_p": 5.1927872710794106e-05,
+    "p_permutation": 0.000999000999000999
+  },
+  "pairwise": [
+    {
+      "species_a": "human",
+      "species_b": "mouse",
+      "tau": 0.8520068160817932,
+      "p_value": 1.71547901219407e-08,
+      "n_shared": 23,
+      "divergence_mya": 90
+    },
+    {
+      "species_a": "human",
+      "species_b": "zebrafish",
+      "tau": 0.7664685926935673,
+      "p_value": 3.781686056108438e-07,
+      "n_shared": 23,
+      "divergence_mya": 450
+    },
+    {
+      "species_a": "human",
+      "species_b": "celegans",
+      "tau": 0.4076283704079585,
+      "p_value": 0.008249909421172373,
+      "n_shared": 23,
+      "divergence_mya": 600
+    },
+    {
+      "species_a": "human",
+      "species_b": "fly",
+      "tau": 0.592014291636845,
+      "p_value": 0.00011296386907986833,
+      "n_shared": 23,
+      "divergence_mya": 700
+    },
+    {
+      "species_a": "human",
+      "species_b": "yeast",
+      "tau": 0.2900295496818695,
+      "p_value": 0.07174098668070268,
+      "n_shared": 23,
+      "divergence_mya": 1000
+    },
+    {
+      "species_a": "human",
+      "species_b": "arabidopsis",
+      "tau": 0.22892304726503224,
+      "p_value": 0.13105828614919104,
+      "n_shared": 23,
+      "divergence_mya": 1500
+    },
+    {
+      "species_a": "human",
+      "species_b": "ecoli",
+      "tau": 0.09619412322627653,
+      "p_value": 0.5847326317958077,
+      "n_shared": 23,
+      "divergence_mya": 2000
+    },
+    {
+      "species_a": "human",
+      "species_b": "halobacterium",
+      "tau": 0.01925124881487135,
+      "p_value": 0.9132009600455815,
+      "n_shared": 23,
+      "divergence_mya": 3500
+    },
+    {
+      "species_a": "mouse",
+      "species_b": "zebrafish",
+      "tau": 0.8016048160562024,
+      "p_value": 1.1824812079792031e-07,
+      "n_shared": 23,
+      "divergence_mya": 360
+    },
+    {
+      "species_a": "mouse",
+      "species_b": "celegans",
+      "tau": 0.5043432654140808,
+      "p_value": 0.0011207743533368328,
+      "n_shared": 23,
+      "divergence_mya": 510
+    },
+    {
+      "species_a": "mouse",
+      "species_b": "fly",
+      "tau": 0.687561666259835,
+      "p_value": 1.2222274337311163e-05,
+      "n_shared": 22,
+      "divergence_mya": 610
+    },
+    {
+      "species_a": "mouse",
+      "species_b": "yeast",
+      "tau": 0.36406849386988654,
+      "p_value": 0.027359406788250794,
+      "n_shared": 22,
+      "divergence_mya": 910
+    },
+    {
+      "species_a": "mouse",
+      "species_b": "arabidopsis",
+      "tau": 0.34677701270179406,
+      "p_value": 0.02259263096980743,
+      "n_shared": 23,
+      "divergence_mya": 1410
+    },
+    {
+      "species_a": "mouse",
+      "species_b": "ecoli",
+      "tau": 0.08640941512978638,
+      "p_value": 0.6329337712518788,
+      "n_shared": 22,
+      "divergence_mya": 1910
+    },
+    {
+      "species_a": "mouse",
+      "species_b": "halobacterium",
+      "tau": 0.15548424963859667,
+      "p_value": 0.39177812799084444,
+      "n_shared": 22,
+      "divergence_mya": 3410
+    },
+    {
+      "species_a": "zebrafish",
+      "species_b": "celegans",
+      "tau": 0.5260034241631749,
+      "p_value": 0.0008728314749254435,
+      "n_shared": 22,
+      "divergence_mya": 150
+    },
+    {
+      "species_a": "zebrafish",
+      "species_b": "fly",
+      "tau": 0.654562359783381,
+      "p_value": 2.0283607099124128e-05,
+      "n_shared": 23,
+      "divergence_mya": 250
+    },
+    {
+      "species_a": "zebrafish",
+      "species_b": "yeast",
+      "tau": 0.3190878289852439,
+      "p_value": 0.05276927571059883,
+      "n_shared": 22,
+      "divergence_mya": 550
+    },
+    {
+      "species_a": "zebrafish",
+      "species_b": "arabidopsis",
+      "tau": 0.29779214553664746,
+      "p_value": 0.0498851950968406,
+      "n_shared": 23,
+      "divergence_mya": 1050
+    },
+    {
+      "species_a": "zebrafish",
+      "species_b": "ecoli",
+      "tau": 0.06897577005006472,
+      "p_value": 0.7025633758666472,
+      "n_shared": 22,
+      "divergence_mya": 1550
+    },
+    {
+      "species_a": "zebrafish",
+      "species_b": "halobacterium",
+      "tau": 0.051714300236507575,
+      "p_value": 0.7754122274096595,
+      "n_shared": 22,
+      "divergence_mya": 3050
+    },
+    {
+      "species_a": "celegans",
+      "species_b": "fly",
+      "tau": 0.6284528335632974,
+      "p_value": 0.00016646847819395543,
+      "n_shared": 20,
+      "divergence_mya": 100
+    },
+    {
+      "species_a": "celegans",
+      "species_b": "yeast",
+      "tau": 0.1506547726590877,
+      "p_value": 0.4119305275478856,
+      "n_shared": 18,
+      "divergence_mya": 400
+    },
+    {
+      "species_a": "celegans",
+      "species_b": "arabidopsis",
+      "tau": 0.44605909516195585,
+      "p_value": 0.00483869939520801,
+      "n_shared": 22,
+      "divergence_mya": 900
+    },
+    {
+      "species_a": "celegans",
+      "species_b": "ecoli",
+      "tau": 0.08479399748963048,
+      "p_value": 0.6778841859051047,
+      "n_shared": 18,
+      "divergence_mya": 1400
+    },
+    {
+      "species_a": "celegans",
+      "species_b": "halobacterium",
+      "tau": 0.3903217867076899,
+      "p_value": 0.05691826689611285,
+      "n_shared": 18,
+      "divergence_mya": 2900
+    },
+    {
+      "species_a": "fly",
+      "species_b": "yeast",
+      "tau": 0.35223136519041415,
+      "p_value": 0.04669703818797328,
+      "n_shared": 19,
+      "divergence_mya": 300
+    },
+    {
+      "species_a": "fly",
+      "species_b": "arabidopsis",
+      "tau": 0.3839630084308169,
+      "p_value": 0.014616780191998848,
+      "n_shared": 22,
+      "divergence_mya": 800
+    },
+    {
+      "species_a": "fly",
+      "species_b": "ecoli",
+      "tau": 0.0358491771363941,
+      "p_value": 0.8592339539965462,
+      "n_shared": 18,
+      "divergence_mya": 1300
+    },
+    {
+      "species_a": "fly",
+      "species_b": "halobacterium",
+      "tau": 0.2424369530936665,
+      "p_value": 0.2323376550895525,
+      "n_shared": 18,
+      "divergence_mya": 2800
+    },
+    {
+      "species_a": "yeast",
+      "species_b": "arabidopsis",
+      "tau": 0.20256945665228038,
+      "p_value": 0.2290825541835615,
+      "n_shared": 21,
+      "divergence_mya": 500
+    },
+    {
+      "species_a": "yeast",
+      "species_b": "ecoli",
+      "tau": -0.20549873413169661,
+      "p_value": 0.399745773321702,
+      "n_shared": 13,
+      "divergence_mya": 1000
+    },
+    {
+      "species_a": "yeast",
+      "species_b": "halobacterium",
+      "tau": 0.24942329796316196,
+      "p_value": 0.33290465148853254,
+      "n_shared": 12,
+      "divergence_mya": 2500
+    },
+    {
+      "species_a": "arabidopsis",
+      "species_b": "ecoli",
+      "tau": 0.16071678812516413,
+      "p_value": 0.39830744605730484,
+      "n_shared": 20,
+      "divergence_mya": 500
+    },
+    {
+      "species_a": "arabidopsis",
+      "species_b": "halobacterium",
+      "tau": 0.3967274717037522,
+      "p_value": 0.03779309183688858,
+      "n_shared": 20,
+      "divergence_mya": 2000
+    },
+    {
+      "species_a": "ecoli",
+      "species_b": "halobacterium",
+      "tau": 0.19999999999999998,
+      "p_value": 0.7020563949269414,
+      "n_shared": 4,
+      "divergence_mya": 1500
+    }
+  ]
+}

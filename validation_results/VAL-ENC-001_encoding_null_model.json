@@ -1,0 +1,55 @@
+{
+  "test_id": "VAL-ENC-001",
+  "test_name": "Encoding Null Model",
+  "timestamp": "2026-03-12T07:39:01.639971+00:00",
+  "parameters": {
+    "sample_size": 1000,
+    "seed": 42,
+    "vocabulary_size": 1932,
+    "pipeline_version": "v2_6bit",
+    "encoding": "AA \u2192 codon (deterministic) \u2192 DNA \u2192 binary \u2192 hex \u2192 tokenize (2-5 byte, freq\u22652, top 100)"
+  },
+  "provenance": {
+    "vocabulary_file": "/home/runner/workspace/validation/../server/data/human/vocabulary.csv",
+    "vocabulary_md5": "e57e9cd0e0a0722f210e40e5abb2eb1d",
+    "vocabulary_rows": 1932,
+    "database": "BETA_DATABASE_URL",
+    "table": "complete_human_proteome",
+    "total_proteins_available": 78007,
+    "proteins_sampled": 1000
+  },
+  "results": {
+    "byte_distribution": {
+      "ks_statistic": 0.002889,
+      "ks_p_value": 0.1932137,
+      "chi2_statistic": 836.63,
+      "chi2_df": 166,
+      "chi2_p_value": 0.0,
+      "distinct_byte_values_real": 167,
+      "distinct_byte_values_shuffled": 167,
+      "total_bytes_real": 279686,
+      "total_bytes_shuffled": 279686
+    },
+    "vocabulary_hits": {
+      "mean_real": 1.74,
+      "mean_shuffled": 0.99,
+      "std_real": 3.41,
+      "std_shuffled": 2.23,
+      "t_statistic": 5.8792,
+      "t_p_value": 4.8207e-09,
+      "ratio_real_over_shuffled": 1.77
+    },
+    "entropy": {
+      "mean_real": 6.1022,
+      "mean_shuffled": 6.122,
+      "t_statistic": -0.8832,
+      "t_p_value": 0.3772515
+    },
+    "token_counts": {
+      "mean_real": 15.01,
+      "mean_shuffled": 12.38
+    }
+  },
+  "conclusion": "Byte distribution: NOT SIGNIFICANT (KS p=1.93e-01, chi2 p=0.00e+00). Vocabulary hits: SIGNIFICANT (real 1.7 vs shuffled 1.0, t=5.88, p=4.82e-09). Entropy: mean real 6.1022 vs shuffled 6.1220 (p=3.77e-01).",
+  "elapsed_seconds": 3.2
+}

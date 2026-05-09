@@ -1,0 +1,127 @@
+entry_point,hop_depth,pattern_function,edges
+chrM:0x37DC,1,Unclassified,10950
+chrM:0x37DC,1,Phosphatase,5256
+chrM:0x37DC,1,Transcription,5162
+chrM:0x37DC,1,Cell cycle,4052
+chrM:0x37DC,1,Cytoskeleton,3004
+chrM:0x37DC,1,Cell adhesion,2718
+chrM:0x37DC,1,Methylation,2104
+chrM:0x37DC,1,Structural,190
+chrM:0x37DC,1,Kinase,9
+chrM:0x575D,1,Unclassified,1498
+chrM:0x575D,1,Chromatin,132
+chrM:0x575D,1,DNA repair,84
+chrM:0x575D,1,Cytoskeleton,44
+chrM:0x575D,1,RNA processing,34
+chrM:0x575D,2,Unclassified,576042
+chrM:0x575D,2,Cytoskeleton,190278
+chrM:0x575D,2,Cell cycle,154798
+chrM:0x575D,2,Chromatin,127898
+chrM:0x575D,2,DNA repair,65460
+chrM:0x575D,2,Transcription,51313
+chrM:0x575D,2,RNA processing,42311
+chrM:0x575D,2,Kinase,34588
+chrM:0x575D,2,Structural,26164
+chrM:0x575D,2,Cell adhesion,21848
+chrM:0x575D,2,Phosphatase,9330
+chrM:0x575D,2,Proteolysis,5376
+chrM:0x575D,2,Protein folding,3729
+chrM:0x575D,2,Methylation,2416
+chrM:0x575D,2,Ubiquitin,2079
+chrM:0x575D,2,Ion channel,1581
+chrM:0x575D,2,Nuc acid bind,1300
+chrM:0x575D,2,Transport,222
+chrM:0x575D,2,Apoptosis,34
+chrM:0x5B2B,1,Unclassified,3528
+chrM:0x5B2B,1,Transcription,289
+chrM:0x5B2B,1,Phosphatase,68
+chrM:0x5B2B,2,Unclassified,1683292
+chrM:0x5B2B,2,Cytoskeleton,524508
+chrM:0x5B2B,2,Cell cycle,447247
+chrM:0x5B2B,2,Chromatin,237441
+chrM:0x5B2B,2,DNA repair,200425
+chrM:0x5B2B,2,Transcription,167540
+chrM:0x5B2B,2,Structural,112295
+chrM:0x5B2B,2,RNA processing,95351
+chrM:0x5B2B,2,Kinase,53300
+chrM:0x5B2B,2,Cell adhesion,41571
+chrM:0x5B2B,2,Phosphatase,17751
+chrM:0x5B2B,2,Proteolysis,17178
+chrM:0x5B2B,2,Protein folding,12449
+chrM:0x5B2B,2,Nuc acid bind,8860
+chrM:0x5B2B,2,Ubiquitin,6682
+chrM:0x5B2B,2,Methylation,5951
+chrM:0x5B2B,2,Ion channel,1450
+chrM:0x71C7,1,Chromatin,2164
+chrM:0x71C7,1,Transcription,2000
+chrM:0x71C7,2,Chromatin,3273808
+chrM:0x71C7,2,Transcription,1906666
+chrM:0x71C7,2,RNA processing,347007
+chrM:0x71C7,2,Unclassified,313680
+chrM:0x71C7,2,Cell cycle,245773
+chrM:0x71C7,2,Cytoskeleton,174670
+chrM:0x71C7,2,Structural,96497
+chrM:0x71C7,2,DNA repair,73751
+chrM:0x71C7,2,Cell adhesion,44975
+chrM:0x71C7,2,Phosphatase,22002
+chrM:0x71C7,2,Methylation,21662
+chrM:0x71C7,2,Kinase,9664
+chrM:0x71C7,2,Ion channel,8390
+chrM:0x71C7,2,Translation,6011
+chrM:0x71C7,2,Nuc acid bind,5236
+chrM:0x71C7,2,Proteolysis,5223
+chrM:0x71C7,2,Transport,2861
+chrM:0x71C7,2,Protein folding,2791
+chrM:0x71C7,2,Ubiquitin,2265
+chrM:0x71C7,2,GTPase,825
+chrM:0x71C7,2,Apoptosis,44
+chrM:0xB6DA,1,Chromatin,66
+chrM:0xB6DA,1,DNA repair,42
+chrM:0xB6DA,1,Cytoskeleton,22
+chrM:0xB6DA,2,Chromatin,29829
+chrM:0xB6DA,2,Cytoskeleton,28051
+chrM:0xB6DA,2,DNA repair,15527
+chrM:0xB6DA,2,Unclassified,14409
+chrM:0xB6DA,2,Cell cycle,12804
+chrM:0xB6DA,2,RNA processing,11356
+chrM:0xB6DA,2,Transcription,6832
+chrM:0xB6DA,2,Phosphatase,4494
+chrM:0xB6DA,2,Cell adhesion,4086
+chrM:0xB6DA,2,Structural,1505
+chrM:0xB6DA,2,Kinase,782
+chrM:0xB6DA,2,Methylation,513
+chrM:0xB6DA,2,Ion channel,474
+chrM:0xB6DA,2,Proteolysis,377
+chrM:0xB6DA,2,Ubiquitin,91
+chrM:0xC5DC,1,Ubiquitin,69
+chrM:0xC5DC,2,Unclassified,34868
+chrM:0xC5DC,2,Chromatin,33811
+chrM:0xC5DC,2,Transcription,25987
+chrM:0xC5DC,2,Structural,12931
+chrM:0xC5DC,2,Cell cycle,11622
+chrM:0xC5DC,2,RNA processing,10121
+chrM:0xC5DC,2,Ubiquitin,7802
+chrM:0xC5DC,2,Cell adhesion,6878
+chrM:0xC5DC,2,Kinase,6048
+chrM:0xC5DC,2,Cytoskeleton,5408
+chrM:0xC5DC,2,DNA repair,2534
+chrM:0xC5DC,2,Nuc acid bind,1917
+chrM:0xC5DC,2,Ion channel,200
+chrM:0xC5DC,2,Protein folding,37
+chrM:0xC5DC,2,Phosphatase,17
+chrM:0xC71C,1,Ubiquitin,69
+chrM:0xC71C,2,Unclassified,69736
+chrM:0xC71C,2,Chromatin,67622
+chrM:0xC71C,2,Transcription,51974
+chrM:0xC71C,2,Structural,25862
+chrM:0xC71C,2,Cell cycle,23244
+chrM:0xC71C,2,RNA processing,20242
+chrM:0xC71C,2,Ubiquitin,15604
+chrM:0xC71C,2,Cell adhesion,13756
+chrM:0xC71C,2,Kinase,12096
+chrM:0xC71C,2,Cytoskeleton,10816
+chrM:0xC71C,2,DNA repair,5068
+chrM:0xC71C,2,Nuc acid bind,3834
+chrM:0xC71C,2,Ion channel,400
+chrM:0xC71C,2,Protein folding,74
+chrM:0xC71C,2,Phosphatase,34

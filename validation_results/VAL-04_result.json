@@ -1,0 +1,27 @@
+{
+  "test_id": "VAL-04",
+  "test_name": "Dispatch Hub Null Model",
+  "timestamp": "2026-05-03T22:27:55.042456",
+  "n_permutations": 10000,
+  "seed": 42,
+  "observed": {
+    "gini": 0.31428272161289905,
+    "chr19_outbound": 592472.0,
+    "chr19_ratio": 1.24608481278575
+  },
+  "null_distribution": {
+    "gini_mean": 0.08684213676240181,
+    "gini_std": 0.012586579842497142,
+    "chr19_out_mean": 475715.2625,
+    "chr19_out_std": 75507.48771935796
+  },
+  "z_scores": {
+    "gini": 18.070086225931018,
+    "chr19": 1.546293500506265
+  },
+  "p_values": {
+    "gini": 9.999000099990002e-05,
+    "chr19": 0.0678932106789321
+  },
+  "elapsed_seconds": 4.4
+}

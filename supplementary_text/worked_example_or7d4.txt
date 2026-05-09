@@ -1,0 +1,73 @@
+======================================================================
+OR7D4 UPSTREAM TOKEN ANALYSIS
+======================================================================
+
+Total tokens: 81
+Upstream tokens (pos < 1250): 24
+Gene body tokens: 57
+
+UPSTREAM DEPARTMENT DISTRIBUTION:
+  Cytoskeleton: 5 (20.8%)
+  Chromatin: 3 (12.5%)
+  Unclassified: 3 (12.5%)
+  DNA repair: 3 (12.5%)
+  Transcription: 2 (8.3%)
+  Methylation: 2 (8.3%)
+  Cell adhesion: 2 (8.3%)
+  Transport: 1 (4.2%)
+  Cell cycle: 1 (4.2%)
+  Structural: 1 (4.2%)
+  Proteolysis: 1 (4.2%)
+
+PIC / TRANSCRIPTION MACHINERY IN UPSTREAM CARRIERS:
+  ARID1A (tokens: 0XF72F, 0X575D)
+  ARID1B (tokens: 0X5A28, 0XBDCB)
+  ARID2 (tokens: 0X5960)
+  ARID4A (tokens: 0X7568)
+  ARID4B (tokens: 0X7560)
+  BRD4 (tokens: 0XF72F)
+  Brd4 (tokens: 0XBDCB, 0XF72F)
+  CHD7 (tokens: 0XF72F)
+  CREB5 (tokens: 0XF72F)
+  CREBBP (tokens: 0X0821)
+  Chd1l (tokens: 0X0821)
+  Chd7 (tokens: 0XCB21)
+  ESP1 (tokens: 0X5A11)
+  GTF2A1 (tokens: 0XBDCB)
+  Gtf2a1 (tokens: 0XBDCB)
+  HDAC9 (tokens: 0XCB21)
+  KAT6A (tokens: 0XBDCB)
+  MED14 (tokens: 0XBDCB)
+  MED15 (tokens: 0XCB21)
+  MED25 (tokens: 0XCB21, 0XF72F)
+  MED9 (tokens: 0XF72F)
+  Taf3 (tokens: 0X3427)
+
+GENE-SPECIFIC SIGNALING IN UPSTREAM CARRIERS:
+  ADCY3 (tokens: 0X7568)
+  Adcy3 (tokens: 0X7568)
+  Ano2 (tokens: 0X5960)
+  GNAS (tokens: 0XBDCB)
+
+GENE BODY DEPARTMENT DISTRIBUTION:
+  Chromatin: 12 (21.1%)
+  Unclassified: 11 (19.3%)
+  Cell cycle: 9 (15.8%)
+  Cytoskeleton: 7 (12.3%)
+  Cell adhesion: 5 (8.8%)
+  Transcription: 4 (7.0%)
+  Structural: 3 (5.3%)
+  Proteolysis: 1 (1.8%)
+  DNA repair: 1 (1.8%)
+  RNA processing: 1 (1.8%)
+  Phosphatase: 1 (1.8%)
+  Ion channel: 1 (1.8%)
+  Kinase: 1 (1.8%)
+
+GENE-SPECIFIC SIGNALING IN GENE BODY CARRIERS:
+  GNAS (tokens: 0XF69C, 0X7623)
+  GNAT1 (tokens: 0X8451)
+  Gnas (tokens: 0XCBDF)
+  Gnat1 (tokens: 0X8451)
+  RGS12 (tokens: 0X37DC)
+  RGS7 (tokens: 0X37D3)

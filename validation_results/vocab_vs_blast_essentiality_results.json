@@ -1,0 +1,28 @@
+{
+  "test": "Q4: Vocabulary vs BLAST-proxy essentiality prediction (head-to-head)",
+  "total_testable_genes": 8706,
+  "agreement": {
+    "n": 1048,
+    "pct": 12.0,
+    "eta_squared": 0.1617
+  },
+  "disagreement": {
+    "n": 7658,
+    "pct": 88.0,
+    "vocabulary_eta_squared": 0.0195,
+    "blast_proxy_eta_squared": 0.0169,
+    "true_dept_eta_squared": 0.2013,
+    "vocabulary_advantage": 0.0026,
+    "winner": "vocabulary"
+  },
+  "full_sample": {
+    "vocabulary_eta_squared": 0.029,
+    "blast_proxy_eta_squared": 0.0186,
+    "true_dept_eta_squared": 0.2042
+  },
+  "top5_essential_cohens_d": {
+    "vocabulary": -0.209,
+    "blast_proxy": -0.266
+  },
+  "conclusion": "On the 7658 genes where vocabulary and BLAST-proxy disagree on department assignment (88.0% of testable genes), vocabulary departments explain more essentiality variance (eta2 = 0.0195 vs 0.0169, advantage = 0.0026). "
+}

@@ -1,0 +1,34 @@
+{
+  "test_id": "V2-04",
+  "test_name": "Fisher's Combined Probability Test",
+  "timestamp": "2026-05-03T22:27:46.547923",
+  "tests": [
+    {
+      "name": "VAL-01: Encoding null",
+      "p_value": 4.82e-09
+    },
+    {
+      "name": "VAL-02: Convergence",
+      "p_value": 0.001
+    },
+    {
+      "name": "VAL-03: Recurrence",
+      "p_value": 0.002
+    },
+    {
+      "name": "VAL-04: Dispatch hub",
+      "p_value": 0.001
+    },
+    {
+      "name": "VAL-05: Cross-species",
+      "p_value": 0.016
+    },
+    {
+      "name": "V2-01: Upstream PIC",
+      "p_value": 0.0012
+    }
+  ],
+  "chi_squared": 100.08242168840182,
+  "df": 12,
+  "combined_p": 5.3645547642022935e-16
+}

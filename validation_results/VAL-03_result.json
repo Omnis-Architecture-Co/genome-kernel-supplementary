@@ -1,0 +1,31 @@
+{
+  "test_id": "VAL-03",
+  "test_name": "Primitive Recurrence Permutation Test",
+  "timestamp": "2026-05-03T22:27:50.642317",
+  "n_permutations": 1000,
+  "seed": 42,
+  "observed": {
+    "unique_sequences": 678,
+    "max_recurrence": 272,
+    "per_chrom_max": 195,
+    "multi_chrom_ge3": 68,
+    "hhi": 0.0038150140570934257
+  },
+  "null_distribution": {
+    "multi_chrom_mean": 221.668,
+    "multi_chrom_std": 4.9274512681507066,
+    "per_chrom_max_mean": 101.994,
+    "per_chrom_max_std": 8.03765911195542
+  },
+  "p_values": {
+    "multi_chrom": 0.000999000999000999,
+    "per_chrom_max": 0.000999000999000999,
+    "concentration": 0.025974025974025976
+  },
+  "z_scores": {
+    "multi_chrom": -31.186102435986882,
+    "per_chrom_max": 11.571279486150807,
+    "concentration": 1.9539064889304267
+  },
+  "elapsed_seconds": 3.8
+}

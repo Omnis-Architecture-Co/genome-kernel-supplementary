@@ -1,0 +1,9 @@
+{
+  "test_id": "ROB-15",
+  "test_name": "Exonic Convergence Control",
+  "timestamp": "2026-05-03T22:27:46.524751",
+  "status": "VERIFIED_FROM_JSON",
+  "converged_words": 1322,
+  "convergence_pct": 2.4,
+  "max_exonic_pct": 4.5
+}

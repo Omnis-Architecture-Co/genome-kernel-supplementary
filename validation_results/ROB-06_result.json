@@ -1,0 +1,17 @@
+{
+  "test_id": "ROB-06",
+  "test_name": "STRING PPI Validation",
+  "timestamp": "2026-05-03T22:27:45.927390",
+  "n_string_pairs": 929472,
+  "same_department": {
+    "n_pairs": 100,
+    "ppi_found": 10,
+    "rate": 0.1
+  },
+  "random_control": {
+    "n_pairs": 100,
+    "ppi_found": 2,
+    "rate": 0.02
+  },
+  "enrichment_same_vs_random": 5.0
+}

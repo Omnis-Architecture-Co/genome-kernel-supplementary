@@ -1,0 +1,41 @@
+Category,Filename,Description,Size_Bytes,Rows,MD5
+Source Data,vocabulary_human_1932words.csv,"Human computational vocabulary (1,932 words)",1005800,1932,e57e9cd0e0a0722f210e40e5abb2eb1d
+Source Data,vocabulary_mouse_1117words.csv,"Mouse vocabulary (1,117 words)",117445,1117,fc4829219ad8f7093edbde009b710556
+Source Data,vocabulary_zebrafish_2403words.csv,"Zebrafish vocabulary (2,403 words)",226348,2403,2c8e764e1a23e956dc79cef0c2591209
+Source Data,vocabulary_fly_937words.csv,Fly vocabulary (937 words),83946,937,23250b6f95b5cabc2c557502c137d029
+Source Data,vocabulary_yeast_123words.csv,Yeast vocabulary (123 words),12598,123,ef858e4e5b27b515d17fc71b4f8d6f6b
+Source Data,vocabulary_ecoli_7words.csv,E. coli vocabulary (7 words),819,7,c6f907f07fe93e1b5e4421d6548e6933
+Source Data,primitive_annotations_116.csv,116 genome primitives with annotations,19205,116,a73f48eab42ce10ad280ca13e3745f8e
+Source Data,programs_annotated_4936.csv,"4,936 annotated programs",1456583,4936,23285bb0d53c05b4f1b30b8f7bbef86d
+Source Data,execution_trace_summary.csv,Execution trace entry points,4106,126,c3d960c5f65c60bd5f598391f6f9a7d6
+Source Data,execution_trace_hop1.csv,First-hop dispatch edges,2542783,43554,ce6e8c090541c9a5d1b4f65f339f82f3
+Source Data,chromosome_roles.csv,Chromosome role assignments,4331,24,e8a52bbdde6fc49c5ab1cd00568b9fa0
+Source Data,gene_departments.csv,Gene-to-department assignments,323168,17322,15515554722805eb6e777e399b1a239c
+Source Data,dispatch_matrix_cross_chromosome.csv,Cross-chromosome dispatch matrix,9286,552,30229010ef785c08a3b0f463c9d364d4
+Source Data,TableS5_codon_encoding.csv,Codon encoding table (20 amino acids),1523,64,437d16d2828e91e6e3c5ea1274dc1ebc
+Source Data,TableS_department_classification.csv,Department classification criteria,1096,23,60a80420cc63e5b051d3847b10f4b057
+Source Data,TableS_input_specifications.csv,Input file specifications,2544,13,4808231e0144cc574384107ca09568eb
+Source Data,protein_tokens_v2_with_genes.csv,Protein-level token assignments,45790526,1849007,4cfd3a04d0147eddb2a4e8b3bd96f521
+Validation,VAL-ENC-001_encoding_null_model.json,Encoding null model results (t=7.96),1796,N/A,63c963b20af13cb98e44a093fee5dc82
+Validation,VAL-CON-001_convergence_null_model.json,Convergence null model results (z=86.4),1590,N/A,d25570f2dcb9547c612804f3ae6754d2
+Validation,VAL-PRM-001_primitive_recurrence.json,Primitive recurrence results (z=52.4),5105,N/A,7310d71ff946e0a59eeb5f057c0c81ee
+Validation,VAL-NET-001_dispatch_hub_null.json,Dispatch hub null model results (z=17.8),4472,N/A,139f71103ea8c483e7f89f885ff0c121
+Validation,VAL-XSP-001_cross_species_tau.json,Cross-species correlation (tau=-0.494/-0.348),16409,N/A,3a9ceae74f8d1c988935e2e2a29b97ab
+Validation,VAL-PEEL-ADDENDUM_results.json,Progressive peel analysis results,4644,N/A,d74be48465de4bfa120a37945d1759e8
+Validation,issue2_encoding_permutations.json,Encoding permutation invariance,1465,N/A,ab859db0c813b8a4d616aea16df43ed1
+Validation,isoform_enc001_canonical.json,Isoform collapse test,1606,N/A,7ba9f580e7155a72f38b814fa35ea48b
+Validation,issue8_parameter_sensitivity.json,Parameter sensitivity analysis,3265,N/A,ae03baf1266611a69e136e56bac03fb8
+Validation,depmap_essentiality_results.json,DepMap essentiality validation,7368,N/A,b14603ac4f9cdd1a8b4a66850063a177
+Validation,dispatch_vs_ppi_results.json,STRING PPI validation,1234,N/A,49f7bf8715c4a70bd117717f3f518cc6
+Validation,shuffled_genome_control_results.json,Shuffled genome control,2574,N/A,2ae98d6da3155015c9adc61ff64d2aa6
+Validation,full_pipeline_negative_controls.json,Full-pipeline negative control,16476,N/A,3d426ade2b94e3e5b684a8a0c1332414
+Validation,chrm_independence_results.json,ChrM independence test,4589,N/A,c157a207944a7f84623de6c2ba96206f
+Validation,pfam_comparison_results.json,Pfam domain comparison,2330,N/A,ebb14ef40f57f5d95d0dad702241c515
+Validation,issue17_confidence_robustness.json,Priority scoring robustness,3815,N/A,21da6597aac9a189b6cf29f264456f0f
+Validation,vocab_vs_blast_results.json,Vocabulary vs BLAST prediction,3836,N/A,56f67eab3ec8f706f72832aad1d29502
+Validation,vocab_residual_essentiality_results.json,Residual essentiality analysis,1417,N/A,b9f661e78830f4a34a1883e2c7e98c5f
+Figure,VAL-ENC-001_byte_distribution.png,Figure 2: Byte distribution (encoding null),167960,N/A,078e6fa1cadb68a1f94b3906e14c6802
+Figure,VAL-PRM-001_recurrence_distribution.png,Figure 3: Primitive recurrence distribution,232798,N/A,c30b8d596a6c985eab460e0429260385
+Figure,figure3_cross_species_9sp.png,Figure 4: Cross-species vocabulary similarity,167271,N/A,a78583df2af91af020e3d91dbf6394db
+Figure,VAL-PEEL-ADDENDUM_comparison.png,Figure S1: Progressive peel comparison,178795,N/A,da6aa2f6963a4d8289cfc80a99f4dd24
+Figure,VAL-DICT-001_v6c_layered_peel_summary.png,Figure S2: Layered peel CV summary,165604,N/A,7643a3dbbac736aeea7115e16d8b67e2

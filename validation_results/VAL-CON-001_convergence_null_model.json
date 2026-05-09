@@ -1,0 +1,41 @@
+{
+  "test_id": "VAL-CON-001",
+  "test_name": "Vocabulary Convergence Null Model",
+  "timestamp": "2026-03-12T07:48:56.163266+00:00",
+  "parameters": {
+    "n_permutations": 1000,
+    "seed": 42,
+    "n_valdict_words": 55641,
+    "n_protein_tokens_distinct": 125468,
+    "n_proteins": 93296,
+    "n_functions": 27,
+    "null_model": "randomly assign vocabulary labels to token hashes (shuffle primary_function across 55,641 VALDICT words), recompute functional overlap across 93K proteins"
+  },
+  "provenance": {
+    "valdict_table": "valdict_extended",
+    "valdict_rows": 55641,
+    "protein_tokens_table": "protein_tokens_v2",
+    "protein_tokens_distinct": 125468,
+    "n_proteins_db": 93465,
+    "database": "BETA_DATABASE_URL",
+    "valdict_token_coverage": "100% of VALDICT tokens appear in protein_tokens_v2"
+  },
+  "results": {
+    "observed": {
+      "functional_overlap": 0.428356,
+      "median_overlap": 0.375,
+      "high_overlap_count": 18169,
+      "proteins_tested": 79035
+    },
+    "null_distribution": {
+      "overlap_mean": 0.228366,
+      "overlap_std": 0.002315,
+      "overlap_max": 0.236145
+    },
+    "p_value": 0.000999001,
+    "z_score": 86.37,
+    "enrichment_ratio": 1.88
+  },
+  "conclusion": "SIGNIFICANT: Observed functional overlap=0.428356 (null mean=0.228366 +/- 0.002315, z=86.37, p=9.9900e-04). Randomly assigning vocabulary labels to the 55641 token hashes and measuring overlap across 93296 proteins (125468 distinct tokens). The real VALDICT labeling produces 1.9x higher functional overlap than random label assignment.",
+  "elapsed_seconds": 31.3
+}

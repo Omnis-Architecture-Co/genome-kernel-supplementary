@@ -1,0 +1,139 @@
+position,hex,word,department,enrichment,length
+40,"0xBDCB","0xBDCB","Chromatin",5.9,2
+76,"0xCBDF","0xCBDF","Structural",6.1,2
+120,"0xCA25","0xCA25","Cell cycle",11.2,2
+139,"0x669A","0x669A","Proteolysis",12.8,2
+148,"0x2962","0x2962","Structural",5.9,2
+151,"0x881C","0x881C","Protein folding",6.5,2
+224,"0x356A","0x356A","Unclassified",7.8,2
+262,"0xCA20","0xCA20","Cell cycle",7.6,2
+305,"0x6B6D","0x6B6D","Unclassified",6.3,2
+316,"0xDC9D","0xDC9D","Chromatin",6.1,2
+393,"0xDCBD","0xDCBD","Chromatin",10,2
+427,"0xF7D8","0xF7D8","Phosphatase",5.5,2
+501,"0x82F5","0x82F5","Transcription",5.2,2
+514,"0xF7D5","0xF7D5","Chromatin",5,2
+538,"0x71C7","0x71C7","Transcription",45.2,2
+620,"0x2B62","0x2B62","Cytoskeleton",6.9,2
+776,"0xDC9D","0xDC9D","Chromatin",6.1,2
+846,"0x6882","0x6882","Cell cycle",8.2,2
+888,"0x75D7","0x75D7","Cytoskeleton",21.7,2
+894,"0xB5D7","0xB5D7","Chromatin",8,2
+904,"0xB7DE","0xB7DE","Unclassified",9.1,2
+961,"0xA7DA","0xA7DA","Methylation",20.8,2
+982,"0x2F72","0x2F72","Chromatin",6.5,2
+1014,"0x05D5","0x05D5","Unclassified",5.1,2
+1111,"0x5451","0x5451","Unclassified",8,2
+1151,"0x8288","0x8288","Cell cycle",7.1,2
+1274,"0xB6DA","0xB6DA","Chromatin",6.9,2
+1279,"0xD5B9","0xD5B9","DNA repair",5.8,2
+1334,"0x896C","0x896C","Cell cycle",21.3,2
+1336,"0x596A","0x596A","Transport",8.5,2
+1365,"0x756C","0x756C","Kinase",9.8,2
+1382,"0x7623","0x7623","Cell cycle",7.6,2
+1388,"0x1620","0x1620","DNA repair",5.3,2
+1414,"0xB429","0xB429","Cytoskeleton",9.8,2
+1469,"0x5B2C","0x5B2C","Kinase",6.2,2
+1479,"0x345C","0x345C","Unclassified",10.9,2
+1484,"0xA288","0xA288","Cytoskeleton",6.2,2
+1538,"0xB988","0xB988","Cell cycle",5,2
+1545,"0xC82B","0xC82B","Unclassified",9.9,2
+1584,"0xB56A","0xB56A","Unclassified",17.4,2
+1594,"0xE798","0xE798","RNA processing",11.2,2
+1604,"0xA7DF","0xA7DF","Structural",14.3,2
+1710,"0x356A","0x356A","Unclassified",7.8,2
+1737,"0xE69A","0xE69A","RNA processing",12.3,2
+1745,"0x8A98","0x8A98","Chromatin",5.3,2
+1825,"0x05D5","0x05D5","Unclassified",5.1,2
+1890,"0xD0A1","0xD0A1","Cytoskeleton",5.4,2
+1907,"0x89D5","0x89D5","Cell cycle",5.2,2
+1935,"0x5D76","0x5D76","Cytoskeleton",5.4,2
+2026,"0x25A2","0x25A2","Cytoskeleton",6.6,2
+2142,"0x772C","0x772C","Cell cycle",5.9,2
+2222,"0xF693","0xF693","Cell adhesion",13.3,2
+2252,"0x0A10","0x0A10","Structural",8.9,2
+2266,"0xB62B","0xB62B","Cytoskeleton",5.9,2
+2306,"0xCA25","0xCA25","Cell cycle",11.2,2
+2333,"0xB62B","0xB62B","Cytoskeleton",5.9,2
+2375,"0xCA20","0xCA20","Cell cycle",7.6,2
+2403,"0x0A10","0x0A10","Structural",8.9,2
+2473,"0x4184","0x4184","Cell adhesion",6.9,2
+2501,"0x2CB1","0x2CB1","Transcription",8,2
+2592,"0x7421","0x7421","Unclassified",11.5,2
+2604,"0xC4DA","0xC4DA","Transcription",47.7,2
+2618,"0xB72B","0xB72B","Transcription",8.9,2
+2661,"0xCA20","0xCA20","Cell cycle",7.6,2
+2877,"0x2B62","0x2B62","Cytoskeleton",6.9,2
+2908,"0xB62B","0xB62B","Cytoskeleton",5.9,2
+2910,"0x2881","0x2881","DNA repair",5.2,2
+2976,"0x2B62","0x2B62","Cytoskeleton",6.9,2
+2983,"0xCA29","0xCA29","Unclassified",7.7,2
+3109,"0x7725","0x7725","Structural",6.1,2
+3204,"0x4104","0x4104","Kinase",11,2
+3281,"0xCA20","0xCA20","Cell cycle",7.6,2
+3380,"0xCA20","0xCA20","Cell cycle",7.6,2
+3421,"0x056B","0x056B","Ion channel",9.2,2
+3458,"0x356A","0x356A","Unclassified",7.8,2
+3465,"0xF629","0xF629","Kinase",6.1,2
+3467,"0xCA25","0xCA25","Cell cycle",11.2,2
+3540,"0xCA20","0xCA20","Cell cycle",7.6,2
+3589,"0xCA25","0xCA25","Cell cycle",11.2,2
+3616,"0x2B62","0x2B62","Cytoskeleton",6.9,2
+3623,"0xC82B","0xC82B","Unclassified",9.9,2
+3653,"0xF560","0xF560","Cytoskeleton",7.6,2
+3740,"0x828B","0x828B","Cell cycle",5,2
+3796,"0xD5B2","0xD5B2","Cytoskeleton",5.7,2
+3818,"0x5B2B","0x5B2B","Unclassified",6,2
+3826,"0xCA29","0xCA29","Unclassified",7.7,2
+3840,"0xB62B","0xB62B","Cytoskeleton",5.9,2
+3864,"0x669A","0x669A","Proteolysis",12.8,2
+3873,"0x2362","0x2362","Cell cycle",5.2,2
+3876,"0x881A","0x881A","Unclassified",5.1,2
+3931,"0xA62A","0xA62A","Unclassified",5.3,2
+3945,"0x60B2","0x60B2","Nuc acid bind",5.2,2
+3964,"0x7D77","0x7D77","Cytoskeleton",6,2
+3981,"0xB2CB","0xB2CB","Chromatin",43.9,2
+4096,"0x2B6D","0x2B6D","Chromatin",5.5,2
+4104,"0xB7D3","0xB7D3","Unclassified",5.5,2
+4131,"0xC5DA","0xC5DA","Transcription",7.7,2
+4139,"0xA725","0xA725","Unclassified",5.1,2
+4193,"0xF72C","0xF72C","Chromatin",6.4,2
+4370,"0xB6DC","0xB6DC","Structural",5.1,2
+4416,"0x669A","0x669A","Proteolysis",12.8,2
+4424,"0xA56C","0xA56C","Cell adhesion",5.2,2
+4461,"0xC960","0xC960","Unclassified",19.8,2
+4520,"0x2881","0x2881","DNA repair",5.2,2
+4719,"0x8A23","0x8A23","Unclassified",5.6,2
+4749,"0x8811","0x8811","Unclassified",9.4,2
+4770,"0x75D6","0x75D6","RNA processing",6.9,2
+4809,"0x1650","0x1650","DNA repair",13.4,2
+4817,"0x356F","0x356F","Chromatin",15.7,2
+4831,"0xE790","0xE790","Chromatin",17,2
+4880,"0xBDCB","0xBDCB","Chromatin",5.9,2
+4925,"0xB98B","0xB98B","RNA processing",7.9,2
+4954,"0xF7DA","0xF7DA","Structural",15.7,2
+5017,"0xCBDF","0xCBDF","Structural",6.1,2
+5057,"0x6F7D","0x6F7D","Methylation",10,2
+5064,"0xF72F","0xF72F","Transcription",12,2
+5171,"0xDCBD","0xDCBD","Chromatin",10,2
+5249,"0xB62B","0xB62B","Cytoskeleton",5.9,2
+5282,"0x2B62","0x2B62","Cytoskeleton",6.9,2
+5325,"0xCA28","0xCA28","Cell cycle",8.3,2
+5380,"0x99A4","0x99A4","Transcription",5.9,2
+5425,"0xA4D6","0xA4D6","Unclassified",15.8,2
+5461,"0xE62E","0xE62E","RNA processing",20.6,2
+5492,"0xF4DF","0xF4DF","Transcription",8.8,2
+5543,"0x756F","0x756F","Cytoskeleton",13.7,2
+5557,"0x4105","0x4105","Cell adhesion",5.5,2
+5622,"0xE698","0xE698","Unclassified",5.5,2
+5632,"0x2B62","0x2B62","Cytoskeleton",6.9,2
+5733,"0xDC8D","0xDC8D","Chromatin",6.8,2
+5782,"0xA28A","0xA28A","Chromatin",11,2
+5874,"0xC96A","0xC96A","Unclassified",8.2,2
+5910,"0x1861","0x1861","Chromatin",5.1,2
+5919,"0xCA9C","0xCA9C","Chromatin",12.8,2
+5935,"0x596F","0x596F","Unclassified",7.4,2
+5947,"0xD5BD","0xD5BD","Chromatin",9.6,2
+5954,"0xF72F","0xF72F","Transcription",12,2
+5988,"0xDCBD","0xDCBD","Chromatin",10,2
+6016,"0x7D77","0x7D77","Cytoskeleton",6,2

@@ -1,0 +1,38 @@
+======================================================================
+INDEPENDENT SEQUENCE CONFIRMATION: Token 0xBDCB in GTF2A1 mRNA
+======================================================================
+
+Token reverse translations:
+  0xBDCB -> 1011110111001011 -> GCCTCAGC
+  0xF72F -> 1111011100101111 -> CCTCAGCC
+  0x71C7 -> 0111000111000111 -> TCATCATC
+  0x2F72 -> 0010111101110010 -> AGCCTCAG
+  0xDCBD -> 1101110010111101 -> CTCAGCCT
+  0x881C -> 1000100000011100 -> GAGAATCA
+  0xCBDF -> 1100101111011111 -> CAGCCTCC
+  0xCA25 -> 1100101000100101 -> CAGGAGTT
+  0x82F5 -> 1000001011110101 -> GAAGCCTT
+
+GTF2A1 mRNA (ENST00000553612.6): 1572 nucleotides
+
+Searching for token DNA sequences in GTF2A1 mRNA:
+  0xBDCB -> GCCTCAGC: FOUND at position 713
+    Context: AGCAAGCTCAGCCTCAGCAGACAGTACC
+  0xF72F -> CCTCAGCC: not found
+  0x71C7 -> TCATCATC: FOUND at position 1096
+    Context: CAGACAGGTGTCATCATCCAGCCTCAGC
+  0x2F72 -> AGCCTCAG: FOUND at position 712
+    Context: CAGCAAGCTCAGCCTCAGCAGACAGTAC
+  0xDCBD -> CTCAGCCT: FOUND at position 709
+    Context: CATCAGCAAGCTCAGCCTCAGCAGACAG
+  0x881C -> GAGAATCA: not found
+  0xCBDF -> CAGCCTCC: not found
+  0xCA25 -> CAGGAGTT: not found
+  0x82F5 -> GAAGCCTT: not found
+
+RESULT: 4 / 9 tokens found in GTF2A1 mRNA
+
+Token 0xBDCB (GCCTCAGC) confirmed at position 713 in GTF2A1 mRNA.
+This independently verifies that the upstream DNA of TP53 and the
+coding sequence of GTF2A1 share this byte-level pattern through
+direct sequence identity.

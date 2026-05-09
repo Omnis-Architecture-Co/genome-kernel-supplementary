@@ -1,0 +1,186 @@
+{
+  "suite": "OMNIS V2 Validation Suite",
+  "timestamp": "2026-05-03T22:38:50.639141",
+  "total_tests": 1,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "elapsed_seconds": 11.1,
+  "results": {
+    "ROB-05": {
+      "test_id": "ROB-05",
+      "test_name": "DepMap Essentiality Validation",
+      "timestamp": "2026-05-03T22:38:50.535438",
+      "genes_matched": 16462,
+      "departments": 22,
+      "eta_squared": 0.18973581901576791,
+      "f_statistic": 183.31803954596205,
+      "anova_p": 0.0,
+      "top5_departments": [
+        "Translation",
+        "RNA processing",
+        "Nuc acid bind",
+        "Cell cycle",
+        "DNA repair"
+      ],
+      "cohens_d": 1.0317975796345034,
+      "mann_whitney_p": 0.0,
+      "department_stats": [
+        {
+          "department": "Apoptosis",
+          "n_genes": 795,
+          "mean_chronos": -0.18332627140928595,
+          "pct_essential": 11.320754716981133,
+          "pct_highly_essential": 6.163522012578617
+        },
+        {
+          "department": "Cell adhesion",
+          "n_genes": 626,
+          "mean_chronos": -0.036190499965332475,
+          "pct_essential": 1.5974440894568689,
+          "pct_highly_essential": 0.6389776357827476
+        },
+        {
+          "department": "Cell cycle",
+          "n_genes": 402,
+          "mean_chronos": -0.5342688918560073,
+          "pct_essential": 36.069651741293534,
+          "pct_highly_essential": 22.139303482587064
+        },
+        {
+          "department": "Chromatin",
+          "n_genes": 572,
+          "mean_chronos": -0.284626367319421,
+          "pct_essential": 19.405594405594407,
+          "pct_highly_essential": 8.566433566433567
+        },
+        {
+          "department": "Cytoskeleton",
+          "n_genes": 275,
+          "mean_chronos": -0.1840361733642232,
+          "pct_essential": 13.454545454545455,
+          "pct_highly_essential": 6.545454545454546
+        },
+        {
+          "department": "DNA repair",
+          "n_genes": 613,
+          "mean_chronos": -0.4182135266023512,
+          "pct_essential": 26.753670473083197,
+          "pct_highly_essential": 15.334420880913541
+        },
+        {
+          "department": "GTPase",
+          "n_genes": 415,
+          "mean_chronos": -0.17507925511186026,
+          "pct_essential": 9.397590361445783,
+          "pct_highly_essential": 5.301204819277109
+        },
+        {
+          "department": "Immune",
+          "n_genes": 1052,
+          "mean_chronos": -0.055179610879818215,
+          "pct_essential": 3.9923954372623576,
+          "pct_highly_essential": 1.9961977186311788
+        },
+        {
+          "department": "Ion channel",
+          "n_genes": 661,
+          "mean_chronos": -0.07121585857719731,
+          "pct_essential": 4.841149773071105,
+          "pct_highly_essential": 2.5718608169440245
+        },
+        {
+          "department": "Kinase",
+          "n_genes": 551,
+          "mean_chronos": -0.11900981969448968,
+          "pct_essential": 7.259528130671507,
+          "pct_highly_essential": 4.174228675136116
+        },
+        {
+          "department": "Methylation",
+          "n_genes": 180,
+          "mean_chronos": -0.1879796390097566,
+          "pct_essential": 12.222222222222221,
+          "pct_highly_essential": 5.0
+        },
+        {
+          "department": "Nuc acid bind",
+          "n_genes": 1664,
+          "mean_chronos": -0.571369257572709,
+          "pct_essential": 37.56009615384615,
+          "pct_highly_essential": 23.4375
+        },
+        {
+          "department": "Phosphatase",
+          "n_genes": 154,
+          "mean_chronos": -0.14330695665872795,
+          "pct_essential": 9.740259740259742,
+          "pct_highly_essential": 4.545454545454546
+        },
+        {
+          "department": "Protein folding",
+          "n_genes": 221,
+          "mean_chronos": -0.3743842980424399,
+          "pct_essential": 23.981900452488688,
+          "pct_highly_essential": 13.574660633484163
+        },
+        {
+          "department": "Proteolysis",
+          "n_genes": 575,
+          "mean_chronos": -0.09584196796994743,
+          "pct_essential": 6.608695652173912,
+          "pct_highly_essential": 3.4782608695652173
+        },
+        {
+          "department": "RNA processing",
+          "n_genes": 485,
+          "mean_chronos": -0.7707451531360487,
+          "pct_essential": 52.57731958762887,
+          "pct_highly_essential": 34.02061855670103
+        },
+        {
+          "department": "Signaling",
+          "n_genes": 2460,
+          "mean_chronos": -0.046654846342610655,
+          "pct_essential": 2.642276422764228,
+          "pct_highly_essential": 1.097560975609756
+        },
+        {
+          "department": "Structural",
+          "n_genes": 392,
+          "mean_chronos": -0.12834834053808372,
+          "pct_essential": 9.183673469387756,
+          "pct_highly_essential": 5.1020408163265305
+        },
+        {
+          "department": "Transcription",
+          "n_genes": 2646,
+          "mean_chronos": -0.1367735841550171,
+          "pct_essential": 9.145880574452004,
+          "pct_highly_essential": 4.232804232804233
+        },
+        {
+          "department": "Translation",
+          "n_genes": 302,
+          "mean_chronos": -1.0753460458450532,
+          "pct_essential": 63.576158940397356,
+          "pct_highly_essential": 42.384105960264904
+        },
+        {
+          "department": "Transport",
+          "n_genes": 873,
+          "mean_chronos": -0.1044806853796001,
+          "pct_essential": 5.72737686139748,
+          "pct_highly_essential": 2.978235967926689
+        },
+        {
+          "department": "Ubiquitin",
+          "n_genes": 548,
+          "mean_chronos": -0.2297327912356083,
+          "pct_essential": 13.686131386861314,
+          "pct_highly_essential": 7.846715328467154
+        }
+      ]
+    }
+  }
+}

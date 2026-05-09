@@ -1,0 +1,304 @@
+{
+  "test_suite": "DepMap Essentiality Validation",
+  "data_source": "DepMap 25Q3 CRISPRGeneEffect (1,186 cell lines)",
+  "genes_tested": 10819,
+  "departments_tested": 22,
+  "summary": "The vocabulary's functional department assignments predict gene essentiality in DepMap CRISPR screens (25Q3, 1,186 cell lines). Department assignment alone explains 21.4% of essentiality variance (eta-squared = 0.2141) across 10819 genes. Genes assigned to the five most essential departments (Translation, RNA processing, Cell cycle, Nucleic acid binding, Protein folding) show significantly more negative Chronos scores than remaining departments (Cohen's d = 1.09, Mann-Whitney z = -34.9, p < 1e-100). Translation genes, classified solely from 6-bit sequence encoding, are 64.9% essential in CRISPR screens, consistent with the known indispensability of ribosomal proteins. DepMap data were not used at any stage of vocabulary construction.",
+  "eta_squared": 0.2141,
+  "eta_squared_pct": 21.4,
+  "top5_vs_rest": {
+    "top5_departments": [
+      "Cell cycle",
+      "DNA repair",
+      "Nuc acid bind",
+      "RNA processing",
+      "Translation"
+    ],
+    "top5_mean_chronos": -0.5665,
+    "top5_n": 2009,
+    "rest_mean_chronos": -0.1014,
+    "rest_n": 8810,
+    "cohens_d": 1.091,
+    "mann_whitney_z": -34.87,
+    "mann_whitney_p_approx": "<1e-100"
+  },
+  "department_essentiality": [
+    {
+      "department": "Translation",
+      "n_genes": 282,
+      "mean_chronos": -1.094,
+      "pct_essential": 65.2,
+      "pct_highly_essential": 42.9
+    },
+    {
+      "department": "RNA processing",
+      "n_genes": 66,
+      "mean_chronos": -0.7197,
+      "pct_essential": 50.0,
+      "pct_highly_essential": 24.2
+    },
+    {
+      "department": "Cell cycle",
+      "n_genes": 172,
+      "mean_chronos": -0.5061,
+      "pct_essential": 35.5,
+      "pct_highly_essential": 20.3
+    },
+    {
+      "department": "Nuc acid bind",
+      "n_genes": 1123,
+      "mean_chronos": -0.4989,
+      "pct_essential": 35.4,
+      "pct_highly_essential": 21.0
+    },
+    {
+      "department": "DNA repair",
+      "n_genes": 366,
+      "mean_chronos": -0.368,
+      "pct_essential": 23.8,
+      "pct_highly_essential": 12.3
+    },
+    {
+      "department": "Protein folding",
+      "n_genes": 217,
+      "mean_chronos": -0.3668,
+      "pct_essential": 23.5,
+      "pct_highly_essential": 13.4
+    },
+    {
+      "department": "Ubiquitin",
+      "n_genes": 291,
+      "mean_chronos": -0.2172,
+      "pct_essential": 12.4,
+      "pct_highly_essential": 7.2
+    },
+    {
+      "department": "Chromatin",
+      "n_genes": 89,
+      "mean_chronos": -0.2151,
+      "pct_essential": 13.5,
+      "pct_highly_essential": 5.6
+    },
+    {
+      "department": "Methylation",
+      "n_genes": 176,
+      "mean_chronos": -0.192,
+      "pct_essential": 12.5,
+      "pct_highly_essential": 5.1
+    },
+    {
+      "department": "GTPase",
+      "n_genes": 408,
+      "mean_chronos": -0.1782,
+      "pct_essential": 9.3,
+      "pct_highly_essential": 5.4
+    },
+    {
+      "department": "Apoptosis",
+      "n_genes": 674,
+      "mean_chronos": -0.1767,
+      "pct_essential": 10.5,
+      "pct_highly_essential": 6.2
+    },
+    {
+      "department": "Cytoskeleton",
+      "n_genes": 246,
+      "mean_chronos": -0.1673,
+      "pct_essential": 11.8,
+      "pct_highly_essential": 5.7
+    },
+    {
+      "department": "Phosphatase",
+      "n_genes": 151,
+      "mean_chronos": -0.1423,
+      "pct_essential": 9.9,
+      "pct_highly_essential": 4.6
+    },
+    {
+      "department": "Structural",
+      "n_genes": 221,
+      "mean_chronos": -0.137,
+      "pct_essential": 8.1,
+      "pct_highly_essential": 5.9
+    },
+    {
+      "department": "Kinase",
+      "n_genes": 176,
+      "mean_chronos": -0.1189,
+      "pct_essential": 6.8,
+      "pct_highly_essential": 3.4
+    },
+    {
+      "department": "Transport",
+      "n_genes": 471,
+      "mean_chronos": -0.112,
+      "pct_essential": 6.2,
+      "pct_highly_essential": 2.8
+    },
+    {
+      "department": "Proteolysis",
+      "n_genes": 443,
+      "mean_chronos": -0.0902,
+      "pct_essential": 6.3,
+      "pct_highly_essential": 2.7
+    },
+    {
+      "department": "Transcription",
+      "n_genes": 1713,
+      "mean_chronos": -0.0805,
+      "pct_essential": 5.0,
+      "pct_highly_essential": 1.7
+    },
+    {
+      "department": "Ion channel",
+      "n_genes": 640,
+      "mean_chronos": -0.0718,
+      "pct_essential": 4.8,
+      "pct_highly_essential": 2.5
+    },
+    {
+      "department": "Immune",
+      "n_genes": 810,
+      "mean_chronos": -0.0554,
+      "pct_essential": 3.6,
+      "pct_highly_essential": 2.1
+    },
+    {
+      "department": "Signaling",
+      "n_genes": 1501,
+      "mean_chronos": -0.0348,
+      "pct_essential": 1.5,
+      "pct_highly_essential": 0.4
+    },
+    {
+      "department": "Cell adhesion",
+      "n_genes": 583,
+      "mean_chronos": -0.0315,
+      "pct_essential": 1.2,
+      "pct_highly_essential": 0.5
+    }
+  ],
+  "top20_essential_genes": [
+    {
+      "rank": 1,
+      "gene": "RPL15",
+      "mean_chronos": -5.697,
+      "department": "Translation"
+    },
+    {
+      "rank": 2,
+      "gene": "SNRPD3",
+      "mean_chronos": -5.47,
+      "department": "Nuc acid bind"
+    },
+    {
+      "rank": 3,
+      "gene": "RAN",
+      "mean_chronos": -4.231,
+      "department": "GTPase"
+    },
+    {
+      "rank": 4,
+      "gene": "HSPE1",
+      "mean_chronos": -4.003,
+      "department": "Protein folding"
+    },
+    {
+      "rank": 5,
+      "gene": "RPL17",
+      "mean_chronos": -3.805,
+      "department": "Translation"
+    },
+    {
+      "rank": 6,
+      "gene": "RPL21",
+      "mean_chronos": -3.333,
+      "department": "Translation"
+    },
+    {
+      "rank": 7,
+      "gene": "SNRPF",
+      "mean_chronos": -3.33,
+      "department": "Nuc acid bind"
+    },
+    {
+      "rank": 8,
+      "gene": "RPS8",
+      "mean_chronos": -3.306,
+      "department": "Translation"
+    },
+    {
+      "rank": 9,
+      "gene": "RRM1",
+      "mean_chronos": -3.29,
+      "department": "DNA repair"
+    },
+    {
+      "rank": 10,
+      "gene": "SNRPA1",
+      "mean_chronos": -3.27,
+      "department": "Nuc acid bind"
+    },
+    {
+      "rank": 11,
+      "gene": "RPS3A",
+      "mean_chronos": -3.233,
+      "department": "Translation"
+    },
+    {
+      "rank": 12,
+      "gene": "PSMA6",
+      "mean_chronos": -3.184,
+      "department": "Apoptosis"
+    },
+    {
+      "rank": 13,
+      "gene": "RPL12",
+      "mean_chronos": -3.155,
+      "department": "Translation"
+    },
+    {
+      "rank": 14,
+      "gene": "PSMB3",
+      "mean_chronos": -3.102,
+      "department": "Apoptosis"
+    },
+    {
+      "rank": 15,
+      "gene": "RPS29",
+      "mean_chronos": -3.09,
+      "department": "Translation"
+    },
+    {
+      "rank": 16,
+      "gene": "SMU1",
+      "mean_chronos": -3.077,
+      "department": "RNA processing"
+    },
+    {
+      "rank": 17,
+      "gene": "PRELID1",
+      "mean_chronos": -3.07,
+      "department": "Apoptosis"
+    },
+    {
+      "rank": 18,
+      "gene": "RPS19",
+      "mean_chronos": -3.055,
+      "department": "Translation"
+    },
+    {
+      "rank": 19,
+      "gene": "RPL23",
+      "mean_chronos": -3.054,
+      "department": "Translation"
+    },
+    {
+      "rank": 20,
+      "gene": "FAU",
+      "mean_chronos": -3.054,
+      "department": "Translation"
+    }
+  ],
+  "all_passed": true
+}

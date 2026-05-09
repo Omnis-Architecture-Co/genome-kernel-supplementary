@@ -1,0 +1,20 @@
+﻿# Private - do not push to GitHub
+manuscript/
+
+# Large external data (provide download instructions instead)
+source_data/external_data/*.txt
+source_data/external_data/*.gz
+source_data/external_data/CRISPRGeneEffect.csv
+source_data/external_data/Model.csv
+
+# Large source data (>10MB)
+source_data/protein_tokens_v2_with_genes.csv
+source_data/all_100_genes_combined.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,543 @@
+{
+  "test_id": "VAL-XSP-001",
+  "test_name": "Cross-Species Kendall's Tau Conservation",
+  "timestamp": "2026-03-13T17:38:39.405151+00:00",
+  "parameters": {
+    "n_species": 9,
+    "species_list": [
+      "human",
+      "mouse",
+      "zebrafish",
+      "celegans",
+      "fly",
+      "yeast",
+      "arabidopsis",
+      "ecoli",
+      "halobacterium"
+    ],
+    "n_pairs": 36,
+    "seed": 42,
+    "n_permutations": 1000,
+    "metric": "opcode (primary_function) frequency distribution",
+    "divergence_source": "established evolutionary divergence times (Mya)"
+  },
+  "provenance": {
+    "vocabulary_files": {
+      "human": {
+        "path": "/home/runner/workspace/validation/../server/data/human/vocabulary.csv",
+        "md5": "e57e9cd0e0a0722f210e40e5abb2eb1d",
+        "rows": 1932,
+        "words": 1932
+      },
+      "mouse": {
+        "path": "/home/runner/workspace/validation/../server/data/mouse/vocabulary.csv",
+        "md5": "fc4829219ad8f7093edbde009b710556",
+        "rows": 1117,
+        "words": 1117
+      },
+      "zebrafish": {
+        "path": "/home/runner/workspace/validation/../server/data/zebrafish/vocabulary.csv",
+        "md5": "2c8e764e1a23e956dc79cef0c2591209",
+        "rows": 2403,
+        "words": 2403
+      },
+      "celegans": {
+        "path": "/home/runner/workspace/validation/../server/data/celegans/vocabulary.csv",
+        "md5": "f9f9f93044aef5bbf401824ebfc77641",
+        "rows": 430,
+        "words": 430
+      },
+      "fly": {
+        "path": "/home/runner/workspace/validation/../server/data/fly/vocabulary.csv",
+        "md5": "23250b6f95b5cabc2c557502c137d029",
+        "rows": 937,
+        "words": 937
+      },
+      "yeast": {
+        "path": "/home/runner/workspace/validation/../server/data/yeast/vocabulary.csv",
+        "md5": "ef858e4e5b27b515d17fc71b4f8d6f6b",
+        "rows": 123,
+        "words": 123
+      },
+      "arabidopsis": {
+        "path": "/home/runner/workspace/validation/../server/data/arabidopsis/vocabulary.csv",
+        "md5": "17f1218edfe73191467884ed95dfa821",
+        "rows": 534,
+        "words": 534
+      },
+      "ecoli": {
+        "path": "/home/runner/workspace/validation/../server/data/ecoli/vocabulary.csv",
+        "md5": "c6f907f07fe93e1b5e4421d6548e6933",
+        "rows": 7,
+        "words": 7
+      },
+      "halobacterium": {
+        "path": "/home/runner/workspace/validation/../server/data/halobacterium/vocabulary.csv",
+        "md5": "3d2ea424b51dd8348078138fd2671fb0",
+        "rows": 3,
+        "words": 3
+      }
+    },
+    "registry_file": "/home/runner/workspace/validation/../server/data/species_registry.json",
+    "registry_md5": "218ba71414f678ff27d1f3874a64f887"
+  },
+  "results": {
+    "pairwise_tau": [
+      {
+        "species_a": "human",
+        "species_b": "mouse",
+        "tau": 0.8213,
+        "p_value": 2.61793e-07,
+        "n_shared_opcodes": 21,
+        "divergence_mya": 90
+      },
+      {
+        "species_a": "human",
+        "species_b": "zebrafish",
+        "tau": 0.7759,
+        "p_value": 1.10049e-06,
+        "n_shared_opcodes": 21,
+        "divergence_mya": 450
+      },
+      {
+        "species_a": "human",
+        "species_b": "celegans",
+        "tau": 0.4032,
+        "p_value": 0.02745177,
+        "n_shared_opcodes": 17,
+        "divergence_mya": 600
+      },
+      {
+        "species_a": "human",
+        "species_b": "fly",
+        "tau": 0.6517,
+        "p_value": 0.0003169678,
+        "n_shared_opcodes": 17,
+        "divergence_mya": 700
+      },
+      {
+        "species_a": "human",
+        "species_b": "yeast",
+        "tau": 0.2244,
+        "p_value": 0.3457786,
+        "n_shared_opcodes": 11,
+        "divergence_mya": 1000
+      },
+      {
+        "species_a": "human",
+        "species_b": "arabidopsis",
+        "tau": 0.1953,
+        "p_value": 0.2471302,
+        "n_shared_opcodes": 19,
+        "divergence_mya": 1500
+      },
+      {
+        "species_a": "human",
+        "species_b": "ecoli",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 2,
+        "divergence_mya": 2000
+      },
+      {
+        "species_a": "human",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 3500
+      },
+      {
+        "species_a": "mouse",
+        "species_b": "zebrafish",
+        "tau": 0.8191,
+        "p_value": 5.5309e-07,
+        "n_shared_opcodes": 20,
+        "divergence_mya": 360
+      },
+      {
+        "species_a": "mouse",
+        "species_b": "celegans",
+        "tau": 0.4158,
+        "p_value": 0.02874653,
+        "n_shared_opcodes": 16,
+        "divergence_mya": 510
+      },
+      {
+        "species_a": "mouse",
+        "species_b": "fly",
+        "tau": 0.7791,
+        "p_value": 1.672342e-05,
+        "n_shared_opcodes": 17,
+        "divergence_mya": 610
+      },
+      {
+        "species_a": "mouse",
+        "species_b": "yeast",
+        "tau": 0.2831,
+        "p_value": 0.2372194,
+        "n_shared_opcodes": 11,
+        "divergence_mya": 910
+      },
+      {
+        "species_a": "mouse",
+        "species_b": "arabidopsis",
+        "tau": 0.4214,
+        "p_value": 0.01642232,
+        "n_shared_opcodes": 18,
+        "divergence_mya": 1410
+      },
+      {
+        "species_a": "mouse",
+        "species_b": "ecoli",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 2,
+        "divergence_mya": 1910
+      },
+      {
+        "species_a": "mouse",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 3410
+      },
+      {
+        "species_a": "zebrafish",
+        "species_b": "celegans",
+        "tau": 0.4905,
+        "p_value": 0.007652487,
+        "n_shared_opcodes": 17,
+        "divergence_mya": 150
+      },
+      {
+        "species_a": "zebrafish",
+        "species_b": "fly",
+        "tau": 0.7511,
+        "p_value": 5.840228e-05,
+        "n_shared_opcodes": 16,
+        "divergence_mya": 250
+      },
+      {
+        "species_a": "zebrafish",
+        "species_b": "yeast",
+        "tau": 0.2244,
+        "p_value": 0.3457786,
+        "n_shared_opcodes": 11,
+        "divergence_mya": 550
+      },
+      {
+        "species_a": "zebrafish",
+        "species_b": "arabidopsis",
+        "tau": 0.2185,
+        "p_value": 0.2100083,
+        "n_shared_opcodes": 18,
+        "divergence_mya": 1050
+      },
+      {
+        "species_a": "zebrafish",
+        "species_b": "ecoli",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 2,
+        "divergence_mya": 1550
+      },
+      {
+        "species_a": "zebrafish",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 3050
+      },
+      {
+        "species_a": "celegans",
+        "species_b": "fly",
+        "tau": 0.5001,
+        "p_value": 0.01094176,
+        "n_shared_opcodes": 15,
+        "divergence_mya": 100
+      },
+      {
+        "species_a": "celegans",
+        "species_b": "yeast",
+        "tau": -0.0194,
+        "p_value": 0.9365006,
+        "n_shared_opcodes": 11,
+        "divergence_mya": 400
+      },
+      {
+        "species_a": "celegans",
+        "species_b": "arabidopsis",
+        "tau": 0.4684,
+        "p_value": 0.01675503,
+        "n_shared_opcodes": 15,
+        "divergence_mya": 900
+      },
+      {
+        "species_a": "celegans",
+        "species_b": "ecoli",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 2,
+        "divergence_mya": 1400
+      },
+      {
+        "species_a": "celegans",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 2900
+      },
+      {
+        "species_a": "fly",
+        "species_b": "yeast",
+        "tau": 0.6441,
+        "p_value": 0.0112447,
+        "n_shared_opcodes": 10,
+        "divergence_mya": 300
+      },
+      {
+        "species_a": "fly",
+        "species_b": "arabidopsis",
+        "tau": 0.5294,
+        "p_value": 0.007057115,
+        "n_shared_opcodes": 15,
+        "divergence_mya": 800
+      },
+      {
+        "species_a": "fly",
+        "species_b": "ecoli",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 2,
+        "divergence_mya": 1300
+      },
+      {
+        "species_a": "fly",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 2800
+      },
+      {
+        "species_a": "yeast",
+        "species_b": "arabidopsis",
+        "tau": 0.138,
+        "p_value": 0.5869821,
+        "n_shared_opcodes": 10,
+        "divergence_mya": 500
+      },
+      {
+        "species_a": "yeast",
+        "species_b": "ecoli",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 1000
+      },
+      {
+        "species_a": "yeast",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 2500
+      },
+      {
+        "species_a": "arabidopsis",
+        "species_b": "ecoli",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 2,
+        "divergence_mya": 500
+      },
+      {
+        "species_a": "arabidopsis",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 1,
+        "divergence_mya": 2000
+      },
+      {
+        "species_a": "ecoli",
+        "species_b": "halobacterium",
+        "tau": null,
+        "p_value": null,
+        "n_shared_opcodes": 0,
+        "divergence_mya": 1500
+      }
+    ],
+    "tau_divergence_correlation": {
+      "kendall_tau": -0.3484,
+      "kendall_p_analytic": 0.02742737,
+      "spearman_r": -0.4748,
+      "spearman_p": 0.02962366,
+      "p_permutation": 0.01598402
+    },
+    "summary_stats": {
+      "mean_tau": 0.4636,
+      "std_tau": 0.2425,
+      "min_tau": -0.0194,
+      "max_tau": 0.8213,
+      "n_unique_opcodes": 22
+    },
+    "opcode_frequencies": {
+      "human": {
+        "Cell adhesion": 0.041499330655957165,
+        "Phosphatase": 0.018072289156626505,
+        "RNA processing": 0.0749665327978581,
+        "Protein folding": 0.002677376171352075,
+        "Structural": 0.0997322623828648,
+        "Cytoskeleton": 0.08500669344042838,
+        "Kinase": 0.014056224899598393,
+        "Methylation": 0.019410977242302542,
+        "Proteolysis": 0.002677376171352075,
+        "Chromatin": 0.16131191432396252,
+        "Cell cycle": 0.038821954484605084,
+        "GTPase": 0.006693440428380187,
+        "Translation": 0.006024096385542169,
+        "DNA repair": 0.028112449799196786,
+        "Transcription": 0.3514056224899598,
+        "Ion channel": 0.007362784471218206,
+        "Ubiquitin": 0.00535475234270415,
+        "Transport": 0.009370816599732263,
+        "Nuc acid bind": 0.022757697456492636,
+        "Apoptosis": 0.002008032128514056,
+        "Signaling": 0.002008032128514056,
+        "Immune": 0.0006693440428380187
+      },
+      "mouse": {
+        "Transcription": 0.3355048859934853,
+        "Chromatin": 0.18132464712269272,
+        "RNA processing": 0.07709011943539631,
+        "Nuc acid bind": 0.02280130293159609,
+        "Cell cycle": 0.05211726384364821,
+        "Cell adhesion": 0.048859934853420196,
+        "Cytoskeleton": 0.10640608034744843,
+        "Translation": 0.003257328990228013,
+        "Kinase": 0.03474484256243214,
+        "Transport": 0.0054288816503800215,
+        "Structural": 0.05646036916395222,
+        "Ion channel": 0.009771986970684038,
+        "GTPase": 0.004343105320304018,
+        "Methylation": 0.010857763300760043,
+        "DNA repair": 0.02823018458197611,
+        "Proteolysis": 0.003257328990228013,
+        "Phosphatase": 0.0054288816503800215,
+        "Signaling": 0.00760043431053203,
+        "Apoptosis": 0.002171552660152009,
+        "Protein folding": 0.0010857763300760044,
+        "Ubiquitin": 0.003257328990228013
+      },
+      "zebrafish": {
+        "Transcription": 0.4559386973180077,
+        "RNA processing": 0.03940886699507389,
+        "Chromatin": 0.10892172961138478,
+        "Cytoskeleton": 0.090311986863711,
+        "Ubiquitin": 0.005473453749315818,
+        "Cell adhesion": 0.06787082649151614,
+        "Nuc acid bind": 0.03940886699507389,
+        "Cell cycle": 0.012588943623426382,
+        "Phosphatase": 0.008210180623973728,
+        "DNA repair": 0.014778325123152709,
+        "Ion channel": 0.011494252873563218,
+        "Signaling": 0.0021893814997263274,
+        "Kinase": 0.03886152162014231,
+        "GTPase": 0.0038314176245210726,
+        "Transport": 0.002736726874657909,
+        "Structural": 0.08374384236453201,
+        "Immune": 0.002736726874657909,
+        "Apoptosis": 0.0010946907498631637,
+        "Proteolysis": 0.0010946907498631637,
+        "Protein folding": 0.0005473453749315818,
+        "Methylation": 0.00875752599890531
+      },
+      "celegans": {
+        "Chromatin": 0.1941747572815534,
+        "Nuc acid bind": 0.1941747572815534,
+        "Immune": 0.014563106796116505,
+        "RNA processing": 0.06796116504854369,
+        "Signaling": 0.0825242718446602,
+        "Transcription": 0.05339805825242718,
+        "Cytoskeleton": 0.043689320388349516,
+        "Kinase": 0.038834951456310676,
+        "Structural": 0.05825242718446602,
+        "Transport": 0.019417475728155338,
+        "Apoptosis": 0.0048543689320388345,
+        "Cell adhesion": 0.13592233009708737,
+        "DNA repair": 0.05339805825242718,
+        "Proteolysis": 0.0048543689320388345,
+        "Ion channel": 0.024271844660194174,
+        "Cell cycle": 0.0048543689320388345,
+        "Ubiquitin": 0.0048543689320388345
+      },
+      "fly": {
+        "Transcription": 0.45641838351822506,
+        "RNA processing": 0.06814580031695722,
+        "Kinase": 0.0554675118858954,
+        "Cell adhesion": 0.08557844690966719,
+        "Signaling": 0.02694136291600634,
+        "Cytoskeleton": 0.06497622820919176,
+        "Chromatin": 0.11727416798732171,
+        "Nuc acid bind": 0.025356576862123614,
+        "DNA repair": 0.028526148969889066,
+        "Cell cycle": 0.012678288431061807,
+        "Structural": 0.03169572107765452,
+        "Ion channel": 0.009508716323296355,
+        "Transport": 0.009508716323296355,
+        "Protein folding": 0.001584786053882726,
+        "Translation": 0.001584786053882726,
+        "Apoptosis": 0.003169572107765452,
+        "Ubiquitin": 0.001584786053882726
+      },
+      "yeast": {
+        "Transcription": 0.25510204081632654,
+        "Proteolysis": 0.3469387755102041,
+        "Chromatin": 0.12244897959183673,
+        "Kinase": 0.10204081632653061,
+        "Cytoskeleton": 0.04081632653061224,
+        "Nuc acid bind": 0.01020408163265306,
+        "Signaling": 0.04081632653061224,
+        "Transport": 0.01020408163265306,
+        "Cell adhesion": 0.030612244897959183,
+        "Cell cycle": 0.02040816326530612,
+        "Ubiquitin": 0.02040816326530612
+      },
+      "arabidopsis": {
+        "Transcription": 0.10192837465564739,
+        "RNA processing": 0.12947658402203857,
+        "Nuc acid bind": 0.07713498622589532,
+        "Kinase": 0.14325068870523416,
+        "Chromatin": 0.1184573002754821,
+        "Transport": 0.03856749311294766,
+        "Signaling": 0.12672176308539945,
+        "Ion channel": 0.01652892561983471,
+        "Immune": 0.04132231404958678,
+        "DNA repair": 0.09641873278236915,
+        "GTPase": 0.01928374655647383,
+        "Protein folding": 0.01652892561983471,
+        "Structural": 0.013774104683195593,
+        "Translation": 0.0027548209366391185,
+        "Cell cycle": 0.005509641873278237,
+        "Cytoskeleton": 0.03305785123966942,
+        "Proteolysis": 0.011019283746556474,
+        "Phosphatase": 0.005509641873278237,
+        "Ubiquitin": 0.0027548209366391185
+      },
+      "ecoli": {
+        "Ion channel": 0.5,
+        "Transport": 0.5
+      },
+      "halobacterium": {
+        "Signaling": 1.0
+      }
+    }
+  },
+  "conclusion": "SIGNIFICANT: Tau-divergence correlation: Kendall's tau=-0.3484 (Spearman r=-0.4748, p_analytic=2.74e-02, p_permutation=1.5984e-02). Tested 36 species pairs across 9 species. Mean pairwise tau=0.4636 (22 unique opcodes). Negative correlation indicates opcode usage diverges with evolutionary distance.",
+  "elapsed_seconds": 0.9
+}

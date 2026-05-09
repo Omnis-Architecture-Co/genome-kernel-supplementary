@@ -1,0 +1,163 @@
+{
+  "test": "Issue #17: Confidence Score Robustness",
+  "timestamp": "2026-03-13T18:40:48.602478+00:00",
+  "method": "Tested 9 priority weight configurations on 10000 proteins. Measured rank-order correlation (Spearman rho, Kendall tau) of token rankings against production weights.",
+  "sample_size": 10000,
+  "weight_configs": [
+    {
+      "label": "Production (L=10, D=5, F_cap=20, scale=2, F_scale=2)",
+      "length_w": 10,
+      "div_w": 5,
+      "scale": 2,
+      "freq_cap": 20,
+      "freq_scale": 2
+    },
+    {
+      "label": "Length-heavy (L=20, D=5)",
+      "length_w": 20,
+      "div_w": 5,
+      "scale": 2,
+      "freq_cap": 20,
+      "freq_scale": 2
+    },
+    {
+      "label": "Length-light (L=5, D=5)",
+      "length_w": 5,
+      "div_w": 5,
+      "scale": 2,
+      "freq_cap": 20,
+      "freq_scale": 2
+    },
+    {
+      "label": "Diversity-heavy (L=10, D=15)",
+      "length_w": 10,
+      "div_w": 15,
+      "scale": 2,
+      "freq_cap": 20,
+      "freq_scale": 2
+    },
+    {
+      "label": "Diversity-zero (L=10, D=0)",
+      "length_w": 10,
+      "div_w": 0,
+      "scale": 2,
+      "freq_cap": 20,
+      "freq_scale": 2
+    },
+    {
+      "label": "Freq-uncapped (F_cap=1000)",
+      "length_w": 10,
+      "div_w": 5,
+      "scale": 2,
+      "freq_cap": 1000,
+      "freq_scale": 2
+    },
+    {
+      "label": "Freq-cap-5 (F_cap=5)",
+      "length_w": 10,
+      "div_w": 5,
+      "scale": 2,
+      "freq_cap": 5,
+      "freq_scale": 2
+    },
+    {
+      "label": "No-scale (scale=1)",
+      "length_w": 10,
+      "div_w": 5,
+      "scale": 1,
+      "freq_cap": 20,
+      "freq_scale": 1
+    },
+    {
+      "label": "Freq-heavy (F_scale=5)",
+      "length_w": 10,
+      "div_w": 5,
+      "scale": 2,
+      "freq_cap": 20,
+      "freq_scale": 5
+    }
+  ],
+  "results": [
+    {
+      "label": "Length-heavy (L=20, D=5)",
+      "shared_tokens": 3292,
+      "spearman_rho": 0.9973,
+      "spearman_p": 0.0,
+      "kendall_tau": 0.9659,
+      "kendall_p": 0.0
+    },
+    {
+      "label": "Length-light (L=5, D=5)",
+      "shared_tokens": 3296,
+      "spearman_rho": 0.9936,
+      "spearman_p": 0.0,
+      "kendall_tau": 0.9455,
+      "kendall_p": 0.0
+    },
+    {
+      "label": "Diversity-heavy (L=10, D=15)",
+      "shared_tokens": 3288,
+      "spearman_rho": 0.9809,
+      "spearman_p": 0.0,
+      "kendall_tau": 0.9066,
+      "kendall_p": 0.0
+    },
+    {
+      "label": "Diversity-zero (L=10, D=0)",
+      "shared_tokens": 3193,
+      "spearman_rho": 0.9354,
+      "spearman_p": 0.0,
+      "kendall_tau": 0.807,
+      "kendall_p": 0.0
+    },
+    {
+      "label": "Freq-uncapped (F_cap=1000)",
+      "shared_tokens": 3297,
+      "spearman_rho": 0.9991,
+      "spearman_p": 0.0,
+      "kendall_tau": 0.9964,
+      "kendall_p": 0.0
+    },
+    {
+      "label": "Freq-cap-5 (F_cap=5)",
+      "shared_tokens": 3288,
+      "spearman_rho": 0.9995,
+      "spearman_p": 0.0,
+      "kendall_tau": 0.9946,
+      "kendall_p": 0.0
+    },
+    {
+      "label": "No-scale (scale=1)",
+      "shared_tokens": 3297,
+      "spearman_rho": 1.0,
+      "spearman_p": 0.0,
+      "kendall_tau": 1.0,
+      "kendall_p": 0.0
+    },
+    {
+      "label": "Freq-heavy (F_scale=5)",
+      "shared_tokens": 3278,
+      "spearman_rho": 0.9968,
+      "spearman_p": 0.0,
+      "kendall_tau": 0.9682,
+      "kendall_p": 0.0
+    }
+  ],
+  "summary": {
+    "mean_spearman_rho": 0.9878,
+    "mean_kendall_tau": 0.948,
+    "min_spearman_rho": 0.9354,
+    "all_rhos": [
+      0.9973,
+      0.9936,
+      0.9809,
+      0.9354,
+      0.9991,
+      0.9995,
+      1.0,
+      0.9968
+    ]
+  },
+  "conclusion": "Across 8 weight perturbations, rank-order stability is high (mean Spearman rho=0.988, mean Kendall tau=0.948). Minimum rho=0.935. The priority ranking is robust to reasonable weight perturbations.",
+  "elapsed_seconds": 87.8
+}

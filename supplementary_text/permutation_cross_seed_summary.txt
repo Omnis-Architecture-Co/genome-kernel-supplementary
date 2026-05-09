@@ -1,0 +1,7 @@
+Cross-seed permutation test summary
+Seeds: [42, 123, 456]
+Seed 42: z = 3.321, p = 0.0012
+Seed 123: z = 3.281, p = 0.0008
+Seed 456: z = 3.322, p = 0.0008
+Mean z: 3.308
+All significant: True

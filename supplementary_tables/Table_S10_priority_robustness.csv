@@ -1,0 +1,10 @@
+Config,Length_Weight,Diversity_Weight,Frequency_Weight,Spearman_rho_vs_Production,Top10_Overlap
+"Production (L=10, D=5, F_cap=20, scale=2, F_scale=2)",,,,,
+"Length-heavy (L=20, D=5)",,,,,
+"Length-light (L=5, D=5)",,,,,
+"Diversity-heavy (L=10, D=15)",,,,,
+"Diversity-zero (L=10, D=0)",,,,,
+Freq-uncapped (F_cap=1000),,,,,
+Freq-cap-5 (F_cap=5),,,,,
+No-scale (scale=1),,,,,
+Freq-heavy (F_scale=5),,,,,

@@ -1,0 +1,13 @@
+Config,Window_Size,Top_N,Min_Occurrences,Min_Enrichment,Vocab_Size,Functional_Coherence,Spearman_rho_vs_Production
+Window 2-3,,,,,365,,
+Window 2-5 (PRODUCTION),,,,,393,,
+Window 2-7,,,,,389,,
+Cap 50,,,,,300,,
+Cap 100 (PRODUCTION),,,,,393,,
+Cap 200,,,,,456,,
+MinOcc 25,,,,,656,,
+MinOcc 50 (PRODUCTION),,,,,393,,
+MinOcc 100,,,,,186,,
+MinEnrich 3.0,,,,,781,,
+MinEnrich 5.0 (PRODUCTION),,,,,393,,
+MinEnrich 8.0,,,,,210,,
